@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:tailorapp/widgets/MyNavDrawer.dart';
 
 class Menus extends StatefulWidget {
   @override
@@ -9,7 +10,7 @@ class Menus extends StatefulWidget {
 }
 
 class _MenusState extends State<Menus> {
-  final GlobalKey _scaffoldKey = new GlobalKey();
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
 
   List<dynamic> data;
 
@@ -21,25 +22,14 @@ class _MenusState extends State<Menus> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(
-        child: ListView(
-          children: [
-            DrawerHeader(
-              decoration: BoxDecoration(color: Color(0xFF73DAE7)),
-              child: Text("data"),
-            ),
-            ListTile(
-              title: Text("Profile"),
-            )
-          ],
-        ),
-      ),
+      drawer: MyNavDrawer(),
       key: _scaffoldKey,
+      primary: true,
       appBar: AppBar(
         leading: IconButton(
             icon: Icon(Icons.menu, color: Colors.white),
             onPressed: () {
-              _scaffoldKey.currentState;
+              _scaffoldKey.currentState.openDrawer();
             }),
         centerTitle: true,
         title: Text(
