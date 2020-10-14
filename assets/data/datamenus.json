@@ -1,32 +1,26 @@
 [
     {
-        "id": 1,
         "title": "Kompetensi",
-        "image":  "icons8-development-skill-96.png"
+        "image": "icons8-development-skill-96.png"
     },
     {
-        "id": 2,
         "title": "Materi",
-        "image":  "icons8-books-96.png"
+        "image": "icons8-books-96.png"
     },
     {
-        "id": 3,
         "title": "Video",
-        "image":  "icons8-video-96.png"
+        "image": "icons8-video-96.png"
     },
     {
-        "id": 4,
         "title": "Evaluasi",
-        "image":  "icons8-test-passed-128.png"
+        "image": "icons8-test-passed-128.png"
     },
     {
-        "id": 5,
         "title": "Referensi",
-        "image":  "icons8-document-128.png"
+        "image": "icons8-document-128.png"
     },
     {
-        "id": 6,
         "title": "Dosen Pembimbing",
-        "image":  "icons8-name-96.png"
-    },
+        "image": "icons8-name-96.png"
+    }
 ]
