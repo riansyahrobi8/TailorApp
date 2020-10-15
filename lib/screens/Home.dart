@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tailorapp/routing/const_routing.dart';
 import 'package:tailorapp/screens/Menus.dart';
 
 class Home extends StatelessWidget {
@@ -60,10 +61,7 @@ class Home extends StatelessWidget {
                 minWidth: 160.0,
                 child: RaisedButton(
                   onPressed: () {
-                    return Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                            builder: (BuildContext context) => Menus()));
+                    return Navigator.pushReplacementNamed(context, menus);
                   },
                   color: Color(0xFF73DAE7),
                   child: Text(

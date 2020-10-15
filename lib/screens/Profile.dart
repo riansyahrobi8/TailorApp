@@ -9,6 +9,7 @@ class Profile extends StatelessWidget {
         title: Text(
           "Profile",
           style: TextStyle(
+              fontSize: 16.0,
               fontFamily: "Montserrat",
               color: Colors.white,
               fontWeight: FontWeight.w800),

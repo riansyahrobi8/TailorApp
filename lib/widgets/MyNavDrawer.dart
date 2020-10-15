@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tailorapp/screens/Profile.dart';
+import 'package:tailorapp/routing/const_routing.dart';
 
 class MyNavDrawer extends StatelessWidget {
   const MyNavDrawer({
@@ -16,8 +16,7 @@ class MyNavDrawer extends StatelessWidget {
               iconData: Icons.account_circle_outlined,
               title: "Profile",
               onTap: () {
-                return Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Profile()));
+                return Navigator.pushNamed(context, profile);
               }),
           _buildDrawerBodyItem(
               iconData: Icons.settings_outlined,

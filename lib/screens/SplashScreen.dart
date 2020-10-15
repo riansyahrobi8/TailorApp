@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:tailorapp/screens/Home.dart';
+import 'package:tailorapp/routing/const_routing.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -24,8 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void navigationPage() {
-    Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (BuildContext context) => Home()));
+    Navigator.pushReplacementNamed(context, home);
   }
 
   @override
