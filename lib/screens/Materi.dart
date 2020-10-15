@@ -5,6 +5,7 @@ class Materi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFF9F9F9),
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.white),
         title: MyCustomText(

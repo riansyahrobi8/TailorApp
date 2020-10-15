@@ -26,7 +26,7 @@ class _MenusState extends State<Menus> {
             }),
         centerTitle: true,
         title: MyCustomText(
-          text: "Media Pembelajaran",
+          text: "Bagian & Bentuk Busana",
           color: Colors.white,
           fontSize: 16.0,
           fontWeight: FontWeight.w800,

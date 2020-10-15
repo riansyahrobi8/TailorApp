@@ -23,10 +23,20 @@ class Home extends StatelessWidget {
                       color: Color(0xFF505050)),
                   Container(
                     margin: const EdgeInsets.only(top: 100.0, bottom: 116.0),
-                    child: Image.asset(
-                      "assets/images/onBoarding.png",
-                      width: 96.0,
-                      height: 96.0,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(120.0),
+                        boxShadow: [
+                          BoxShadow(
+                              color: Colors.grey.withOpacity(0.15),
+                              blurRadius: 15)
+                        ]),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(120.0),
+                      child: Image.asset(
+                        "assets/images/logo.jpg",
+                        width: 120.0,
+                        height: 120.0,
+                      ),
                     ),
                   ),
                   MyCustomText(

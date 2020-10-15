@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:tailorapp/routing/const_routing.dart';
+import 'package:tailorapp/widgets/MyCustomText.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -40,21 +41,19 @@ class _SplashScreenState extends State<SplashScreen> {
                 alignment: Alignment.center,
                 margin: const EdgeInsets.only(top: 72.0),
                 child: ClipRRect(
-                  borderRadius: BorderRadius.circular(120.0),
                   child: Image.asset(
-                    'assets/images/logo.jpg',
+                    'assets/images/27.UNY.png',
                     width: 120.0,
                     height: 120.0,
+                    fit: BoxFit.cover,
                   ),
                 )),
-            Text(
-              _name,
-              style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: "Montserrat",
-                  color: Colors.white),
-            )
+            MyCustomText(
+                text: _name,
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                fontFamily: "Montserrat",
+                color: Colors.white),
           ],
         ),
       ),

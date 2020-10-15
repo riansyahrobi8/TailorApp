@@ -15,7 +15,7 @@ class MyDrawerHeader extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(72.0),
             child: Image.asset(
-              'assets/images/profile.jpg',
+              'assets/images/logo.jpg',
               fit: BoxFit.cover,
               width: 72.0,
               height: 72.0,
@@ -25,13 +25,13 @@ class MyDrawerHeader extends StatelessWidget {
             height: 16.0,
           ),
           MyCustomText(
-              text: "Tri Annisa",
+              text: "Media Pemebelajaran",
               fontFamily: "Montserrat",
               fontSize: 14.0,
               color: Colors.white,
               fontWeight: FontWeight.w800),
           MyCustomText(
-              text: "triannisa06@gmail.com",
+              text: "Bagian & Bentuk Busana",
               fontFamily: "Montserrat",
               fontSize: 12.0,
               color: Colors.white,

@@ -18,14 +18,14 @@ class MyNavDrawer extends StatelessWidget {
               iconData: Icons.account_circle_outlined,
               title: "Profile",
               onTap: () => Navigator.pushNamed(context, profile)),
-          MyDrawerBodyItem(
-              iconData: Icons.settings_outlined,
-              title: "Pengaturan",
-              onTap: () => Navigator.pushNamed(context, settings)),
-          MyDrawerBodyItem(
-              iconData: Icons.info_outline_rounded,
-              title: "Tentang Aplikasi",
-              onTap: () => Navigator.pushNamed(context, about))
+          // MyDrawerBodyItem(
+          //     iconData: Icons.settings_outlined,
+          //     title: "Pengaturan",
+          //     onTap: () => Navigator.pushNamed(context, settings)),
+          // MyDrawerBodyItem(
+          //     iconData: Icons.info_outline_rounded,
+          //     title: "Tentang Aplikasi",
+          //     onTap: () => Navigator.pushNamed(context, about))
         ],
       ),
     );
