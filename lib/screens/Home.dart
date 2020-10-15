@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/routing/const_routing.dart';
-import 'package:tailorapp/screens/Menus.dart';
+import 'package:tailorapp/widgets/MyCustomText.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -15,14 +15,12 @@ class Home extends StatelessWidget {
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
-                  Text(
-                    "Media Pembelajaran",
-                    style: TextStyle(
-                        fontFamily: "Montserrat",
-                        fontSize: 16.0,
-                        fontWeight: FontWeight.w800,
-                        color: Color(0xFF505050)),
-                  ),
+                  MyCustomText(
+                      text: "Media Pembelajaran",
+                      fontFamily: "Montserrat",
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.w800,
+                      color: Color(0xFF505050)),
                   Container(
                     margin: const EdgeInsets.only(top: 100.0, bottom: 116.0),
                     child: Image.asset(
@@ -31,26 +29,23 @@ class Home extends StatelessWidget {
                       height: 96.0,
                     ),
                   ),
-                  Text(
-                    "Bagian & Bentuk Busana",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        fontFamily: "Montserrat",
-                        fontSize: 24.0,
-                        fontWeight: FontWeight.w800,
-                        color: Color(0xFF505050)),
-                  ),
+                  MyCustomText(
+                      text: "Bagian & Bentuk Busana",
+                      textAlign: TextAlign.center,
+                      fontFamily: "Montserrat",
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.w800,
+                      color: Color(0xFF505050)),
                   SizedBox(
                     height: 16.0,
                   ),
-                  Text(
-                    "Mata Pelajaran Dasar Desain Kelas X SMK Tata Busanan",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        fontFamily: "Roboto",
-                        fontSize: 14.0,
-                        color: Color(0xFFB4B4B4)),
-                  ),
+                  MyCustomText(
+                      text:
+                          "Mata Pelajaran Dasar Desain Kelas X SMK Tata Busanan",
+                      textAlign: TextAlign.center,
+                      fontFamily: "Roboto",
+                      fontSize: 14.0,
+                      color: Color(0xFFB4B4B4)),
                 ],
               ),
             ),
@@ -64,13 +59,11 @@ class Home extends StatelessWidget {
                     return Navigator.pushReplacementNamed(context, menus);
                   },
                   color: Color(0xFF73DAE7),
-                  child: Text(
-                    "Mulai",
-                    style: TextStyle(
-                        fontSize: 22.0,
-                        fontFamily: "Montserrat",
-                        color: Colors.white),
-                  ),
+                  child: MyCustomText(
+                      text: "Mulai",
+                      fontSize: 22.0,
+                      fontFamily: "Montserrat",
+                      color: Colors.white),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8.0)),
                 ),

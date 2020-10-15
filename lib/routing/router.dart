@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/routing/const_routing.dart';
+import 'package:tailorapp/screens/AboutApp.dart';
+import 'package:tailorapp/screens/Dosbing.dart';
+import 'package:tailorapp/screens/Evaluasi.dart';
 import 'package:tailorapp/screens/Home.dart';
+import 'package:tailorapp/screens/Kompetensi.dart';
+import 'package:tailorapp/screens/Materi.dart';
 import 'package:tailorapp/screens/Menus.dart';
 import 'package:tailorapp/screens/Profile.dart';
+import 'package:tailorapp/screens/Referensi.dart';
+import 'package:tailorapp/screens/Settings.dart';
 import 'package:tailorapp/screens/SplashScreen.dart';
+import 'package:tailorapp/screens/Videos.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings routeSettings) {
@@ -14,6 +22,22 @@ class Router {
         return MaterialPageRoute(builder: (_) => Menus());
       case profile:
         return MaterialPageRoute(builder: (_) => Profile());
+      case settings:
+        return MaterialPageRoute(builder: (_) => Settings());
+      case about:
+        return MaterialPageRoute(builder: (_) => AboutApp());
+      case kompetensi:
+        return MaterialPageRoute(builder: (_) => Kompetensi());
+      case materi:
+        return MaterialPageRoute(builder: (_) => Materi());
+      case video:
+        return MaterialPageRoute(builder: (_) => Videos());
+      case evaluasi:
+        return MaterialPageRoute(builder: (_) => Evaluasi());
+      case referensi:
+        return MaterialPageRoute(builder: (_) => Referensi());
+      case dosbing:
+        return MaterialPageRoute(builder: (_) => Dosbing());
       default:
         return MaterialPageRoute(builder: (_) => SplashScreen());
     }

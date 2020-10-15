@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 
-class Profile extends StatelessWidget {
+class Evaluasi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

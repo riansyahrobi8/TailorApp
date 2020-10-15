@@ -1,7 +1,7 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:tailorapp/routing/const_routing.dart';
+import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/widgets/MyMenuItems.dart';
 import 'package:tailorapp/widgets/MyNavDrawer.dart';
 
 class Menus extends StatefulWidget {
@@ -11,13 +11,6 @@ class Menus extends StatefulWidget {
 
 class _MenusState extends State<Menus> {
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
-
-  List<dynamic> data;
-
-  Future<dynamic> _loadData() async {
-    return data =
-        jsonDecode(await rootBundle.loadString('assets/data/datamenus.json'));
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,66 +25,50 @@ class _MenusState extends State<Menus> {
               _scaffoldKey.currentState.openDrawer();
             }),
         centerTitle: true,
-        title: Text(
-          "Media Pembelajaran",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 16.0,
-            fontWeight: FontWeight.w800,
-            fontFamily: "Montserrat",
-          ),
+        title: MyCustomText(
+          text: "Media Pembelajaran",
+          color: Colors.white,
+          fontSize: 16.0,
+          fontWeight: FontWeight.w800,
+          fontFamily: "Montserrat",
         ),
       ),
       backgroundColor: Color(0xFFF9F9F9),
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 8.0),
-        child: FutureBuilder(
-          future: _loadData(),
-          builder: (context, snapshot) {
-            if (!snapshot.hasData) {
-              return Center(
-                child: CircularProgressIndicator(),
-              );
-            } else {
-              return ListView.builder(
-                itemCount: data.length,
-                itemBuilder: (context, index) {
-                  print(data[index]['id']);
-                  return ListTile(
-                    title: Card(
-                      child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 16.0, vertical: 24.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Image.asset(
-                                'assets/images/' + data[index]['image'],
-                                width: 96.0,
-                                height: 96.0,
-                              ),
-                              SizedBox(
-                                width: 24.0,
-                              ),
-                              Expanded(
-                                child: Text(
-                                  data[index]['title'],
-                                  style: TextStyle(
-                                      color: Color(0xFF505050),
-                                      fontFamily: "Montserrat",
-                                      fontSize: 18.0,
-                                      fontWeight: FontWeight.w800),
-                                ),
-                              )
-                            ],
-                          )),
-                    ),
-                    // ontap
-                  );
-                },
-              );
-            }
-          },
+        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+        child: ListView(
+          children: [
+            MyMenuItems(
+              image: "icons8-development-skill-96.png",
+              text: "Kompetensi",
+              onTap: () => Navigator.pushNamed(context, kompetensi),
+            ),
+            MyMenuItems(
+              image: "icons8-books-96.png",
+              text: "Materi",
+              onTap: () => Navigator.pushNamed(context, materi),
+            ),
+            MyMenuItems(
+              image: "icons8-video-96.png",
+              text: "Video",
+              onTap: () => Navigator.pushNamed(context, video),
+            ),
+            MyMenuItems(
+              image: "icons8-test-passed-128.png",
+              text: "Evaluasi",
+              onTap: () => Navigator.pushNamed(context, evaluasi),
+            ),
+            MyMenuItems(
+              image: "icons8-document-128.png",
+              text: "Referensi",
+              onTap: () => Navigator.pushNamed(context, referensi),
+            ),
+            MyMenuItems(
+              image: "icons8-name-96.png",
+              text: "Dosen Pembimbing",
+              onTap: () => Navigator.pushNamed(context, dosbing),
+            ),
+          ],
         ),
       ),
     );

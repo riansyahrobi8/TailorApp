@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 
-class Profile extends StatelessWidget {
+class Dosbing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.white),
         title: MyCustomText(
-            text: "Profile",
+            text: "Dosen Pembimbing",
             fontSize: 16.0,
             fontFamily: "Montserrat",
             color: Colors.white,
