@@ -12,3 +12,5 @@ const video = '/video';
 const evaluasi = '/evaluasi';
 const referensi = '/referensi';
 const dosbing = '/dosbing';
+
+const definition = '/definition';

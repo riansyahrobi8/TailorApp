@@ -12,6 +12,7 @@ import 'package:tailorapp/screens/Referensi.dart';
 import 'package:tailorapp/screens/Settings.dart';
 import 'package:tailorapp/screens/SplashScreen.dart';
 import 'package:tailorapp/screens/Videos.dart';
+import 'package:tailorapp/screens/submateri/DefinitionScreen.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings routeSettings) {
@@ -38,6 +39,8 @@ class Router {
         return MaterialPageRoute(builder: (_) => Referensi());
       case dosbing:
         return MaterialPageRoute(builder: (_) => Dosbing());
+      case definition:
+        return MaterialPageRoute(builder: (_) => DefinitionScreen());
       default:
         return MaterialPageRoute(builder: (_) => SplashScreen());
     }
