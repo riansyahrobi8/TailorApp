@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class Kompetensi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFFF9F9F9),
+        backgroundColor: myColor.backgroundColor,
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.white),
           title: MyCustomText(
@@ -27,7 +28,7 @@ class Kompetensi extends StatelessWidget {
               MyCustomText(
                 text: "Kompetensi",
                 fontFamily: "Montserrat",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,
                 fontSize: 22.0,
               ),
@@ -39,7 +40,7 @@ class Kompetensi extends StatelessWidget {
                 children: [
                   MyCustomText(
                     text: "3.3.",
-                    color: Color(0xFF505050),
+                    color: myColor.secondaryColor,
                     fontFamily: "Montserrat",
                     fontSize: 16.0,
                     fontWeight: FontWeight.w800,
@@ -50,7 +51,7 @@ class Kompetensi extends StatelessWidget {
                   Expanded(
                     child: MyCustomText(
                       text: "Menerapkan bagian dan bentuk busana",
-                      color: Color(0xFF505050),
+                      color: myColor.secondaryColor,
                       fontFamily: "Montserrat",
                       fontSize: 16.0,
                       fontWeight: FontWeight.w800,
@@ -70,7 +71,7 @@ class Kompetensi extends StatelessWidget {
                       children: [
                         MyCustomText(
                           text: "3.3.1.",
-                          color: Color(0xFF505050),
+                          color: myColor.secondaryColor,
                           fontFamily: "Roboto",
                           fontSize: 14.0,
                         ),
@@ -79,8 +80,8 @@ class Kompetensi extends StatelessWidget {
                         ),
                         Expanded(
                           child: MyCustomText(
-                            text: "bagian-bagian busana",
-                            color: Color(0xFF505050),
+                            text: "Bagian-bagian busana",
+                            color: myColor.secondaryColor,
                             fontFamily: "Roboto",
                             fontSize: 14.0,
                           ),
@@ -95,7 +96,7 @@ class Kompetensi extends StatelessWidget {
                       children: [
                         MyCustomText(
                           text: "3.3.2.",
-                          color: Color(0xFF505050),
+                          color: myColor.secondaryColor,
                           fontFamily: "Roboto",
                           fontSize: 14.0,
                         ),
@@ -104,8 +105,8 @@ class Kompetensi extends StatelessWidget {
                         ),
                         Expanded(
                           child: MyCustomText(
-                            text: "bentuk busana (siluet busana)",
-                            color: Color(0xFF505050),
+                            text: "Bentuk busana (siluet busana)",
+                            color: myColor.secondaryColor,
                             fontFamily: "Roboto",
                             fontSize: 14.0,
                           ),
@@ -123,7 +124,7 @@ class Kompetensi extends StatelessWidget {
                 children: [
                   MyCustomText(
                     text: "4.3.",
-                    color: Color(0xFF505050),
+                    color: myColor.secondaryColor,
                     fontFamily: "Montserrat",
                     fontSize: 16.0,
                     fontWeight: FontWeight.w800,
@@ -134,7 +135,7 @@ class Kompetensi extends StatelessWidget {
                   Expanded(
                     child: MyCustomText(
                       text: "Membuat gambar dan bagian bentuk busana",
-                      color: Color(0xFF505050),
+                      color: myColor.secondaryColor,
                       fontFamily: "Montserrat",
                       fontSize: 16.0,
                       fontWeight: FontWeight.w800,
@@ -154,7 +155,7 @@ class Kompetensi extends StatelessWidget {
                       children: [
                         MyCustomText(
                           text: "4.3.1.",
-                          color: Color(0xFF505050),
+                          color: myColor.secondaryColor,
                           fontFamily: "Roboto",
                           fontSize: 14.0,
                         ),
@@ -164,8 +165,8 @@ class Kompetensi extends StatelessWidget {
                         Expanded(
                           child: MyCustomText(
                             text:
-                                "alat dan bahan untuk pembuatan bagian-bagian busana dan bentuk busana",
-                            color: Color(0xFF505050),
+                                "Alat dan bahan untuk pembuatan bagian-bagian busana dan bentuk busana",
+                            color: myColor.secondaryColor,
                             fontFamily: "Roboto",
                             fontSize: 14.0,
                           ),
@@ -180,7 +181,7 @@ class Kompetensi extends StatelessWidget {
                       children: [
                         MyCustomText(
                           text: "4.3.2.",
-                          color: Color(0xFF505050),
+                          color: myColor.secondaryColor,
                           fontFamily: "Roboto",
                           fontSize: 14.0,
                         ),
@@ -190,8 +191,8 @@ class Kompetensi extends StatelessWidget {
                         Expanded(
                           child: MyCustomText(
                             text:
-                                "prosedur pembuatan gambar bagian-bagian busana dan bentuk busana",
-                            color: Color(0xFF505050),
+                                "Prosedur pembuatan gambar bagian-bagian busana dan bentuk busana",
+                            color: myColor.secondaryColor,
                             fontFamily: "Roboto",
                             fontSize: 14.0,
                           ),

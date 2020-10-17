@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class MyMenuItems extends StatelessWidget {
   final String image;
@@ -30,7 +31,7 @@ class MyMenuItems extends StatelessWidget {
                 Expanded(
                   child: MyCustomText(
                       text: text,
-                      color: Color(0xFF505050),
+                      color: myColor.primaryColor,
                       fontFamily: "Montserrat",
                       fontSize: 18.0,
                       fontWeight: FontWeight.w800),

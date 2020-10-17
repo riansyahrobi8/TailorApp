@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class MyDrawerHeader extends StatelessWidget {
   const MyDrawerHeader({
@@ -9,7 +10,7 @@ class MyDrawerHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DrawerHeader(
-      decoration: BoxDecoration(color: Color(0xFF73DAE7)),
+      decoration: BoxDecoration(color: myColor.primaryColor),
       child: Column(
         children: [
           ClipRRect(
@@ -28,13 +29,13 @@ class MyDrawerHeader extends StatelessWidget {
               text: "Media Pemebelajaran",
               fontFamily: "Montserrat",
               fontSize: 14.0,
-              color: Colors.white,
+              color: myColor.textColorWhite,
               fontWeight: FontWeight.w800),
           MyCustomText(
               text: "Bagian & Bentuk Busana",
               fontFamily: "Montserrat",
               fontSize: 12.0,
-              color: Colors.white,
+              color: myColor.textColorWhite,
               fontWeight: FontWeight.w500),
         ],
       ),

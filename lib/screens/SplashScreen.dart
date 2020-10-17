@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:tailorapp/routing/const_routing.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -31,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF73DAE7),
+      backgroundColor: myColor.primaryColor,
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -53,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
                 fontFamily: "Montserrat",
-                color: Colors.white),
+                color: myColor.textColorWhite),
           ],
         ),
       ),

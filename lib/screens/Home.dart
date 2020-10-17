@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/routing/const_routing.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFFF9F9F9),
+        backgroundColor: myColor.backgroundColor,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -20,7 +21,7 @@ class Home extends StatelessWidget {
                       fontFamily: "Montserrat",
                       fontSize: 16.0,
                       fontWeight: FontWeight.w800,
-                      color: Color(0xFF505050)),
+                      color: myColor.secondaryColor),
                   Container(
                     margin: const EdgeInsets.only(top: 100.0, bottom: 116.0),
                     decoration: BoxDecoration(
@@ -45,7 +46,7 @@ class Home extends StatelessWidget {
                       fontFamily: "Montserrat",
                       fontSize: 24.0,
                       fontWeight: FontWeight.w800,
-                      color: Color(0xFF505050)),
+                      color: myColor.secondaryColor),
                   SizedBox(
                     height: 16.0,
                   ),
@@ -55,7 +56,7 @@ class Home extends StatelessWidget {
                       textAlign: TextAlign.center,
                       fontFamily: "Roboto",
                       fontSize: 14.0,
-                      color: Color(0xFFB4B4B4)),
+                      color: myColor.subTitleColor),
                 ],
               ),
             ),
@@ -68,12 +69,12 @@ class Home extends StatelessWidget {
                   onPressed: () {
                     return Navigator.pushReplacementNamed(context, menus);
                   },
-                  color: Color(0xFF73DAE7),
+                  color: myColor.primaryColor,
                   child: MyCustomText(
                       text: "Mulai",
                       fontSize: 22.0,
                       fontFamily: "Montserrat",
-                      color: Colors.white),
+                      color: myColor.textColorWhite),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8.0)),
                 ),

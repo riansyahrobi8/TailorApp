@@ -3,6 +3,7 @@ import 'package:tailorapp/routing/const_routing.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 import 'package:tailorapp/widgets/MyMenuItems.dart';
 import 'package:tailorapp/widgets/MyNavDrawer.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class Menus extends StatefulWidget {
   @override
@@ -20,20 +21,20 @@ class _MenusState extends State<Menus> {
       primary: true,
       appBar: AppBar(
         leading: IconButton(
-            icon: Icon(Icons.menu, color: Colors.white),
+            icon: Icon(Icons.menu, color: myColor.textColorWhite),
             onPressed: () {
               _scaffoldKey.currentState.openDrawer();
             }),
         centerTitle: true,
         title: MyCustomText(
           text: "Bagian & Bentuk Busana",
-          color: Colors.white,
+          color: myColor.textColorWhite,
           fontSize: 16.0,
           fontWeight: FontWeight.w800,
           fontFamily: "Montserrat",
         ),
       ),
-      backgroundColor: Color(0xFFF9F9F9),
+      backgroundColor: myColor.backgroundColor,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
         child: ListView(

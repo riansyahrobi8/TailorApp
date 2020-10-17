@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class Materi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFF9F9F9),
+      backgroundColor: myColor.backgroundColor,
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.white),
         title: MyCustomText(

@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class Dosbing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFFF9F9F9),
+        backgroundColor: myColor.backgroundColor,
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.white),
           title: MyCustomText(
               text: "Dosen Pembimbing",
               fontSize: 16.0,
               fontFamily: "Montserrat",
-              color: Colors.white,
+              color: myColor.textColorWhite,
               fontWeight: FontWeight.w800),
         ),
         body: Padding(
@@ -46,7 +47,7 @@ class Dosbing extends StatelessWidget {
                     fontFamily: "Montserrat",
                     fontSize: 14.0,
                     fontWeight: FontWeight.w800,
-                    color: Color(0xFF505050)),
+                    color: myColor.secondaryColor),
                 SizedBox(
                   height: 16.0,
                 ),
@@ -56,7 +57,7 @@ class Dosbing extends StatelessWidget {
                     fontFamily: "Montserrat",
                     fontSize: 18.0,
                     fontWeight: FontWeight.w800,
-                    color: Color(0xFF505050)),
+                    color: myColor.secondaryColor),
                 SizedBox(
                   height: 8.0,
                 ),
@@ -69,13 +70,13 @@ class Dosbing extends StatelessWidget {
                         fontFamily: "Roboto",
                         fontSize: 14.0,
                         fontWeight: FontWeight.w500,
-                        color: Color(0xFF505050)),
+                        color: myColor.secondaryColor),
                     SizedBox(
                       width: 8.0,
                     ),
                     Icon(
                       Icons.email_outlined,
-                      color: Color(0xFF73DAE7),
+                      color: myColor.primaryColor,
                     )
                   ],
                 ),
@@ -88,7 +89,7 @@ class Dosbing extends StatelessWidget {
                     textAlign: TextAlign.center,
                     fontFamily: "Roboto",
                     fontSize: 16.0,
-                    color: Color(0xFF505050)),
+                    color: myColor.secondaryColor),
                 SizedBox(
                   height: 56.0,
                 )

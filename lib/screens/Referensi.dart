@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
+import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class Referensi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFFF9F9F9),
+        backgroundColor: myColor.backgroundColor,
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.white),
           title: MyCustomText(
               text: "Referensi",
               fontSize: 16.0,
               fontFamily: "Montserrat",
-              color: Colors.white,
+              color: myColor.textColorWhite,
               fontWeight: FontWeight.w800),
         ),
         body: Padding(
@@ -27,7 +28,7 @@ class Referensi extends StatelessWidget {
               MyCustomText(
                 text: "Referensi",
                 fontFamily: "Montserrat",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,
                 fontSize: 22.0,
               ),
@@ -37,7 +38,7 @@ class Referensi extends StatelessWidget {
               MyCustomText(
                 text:
                     "Ernawati, dkk. (2008). Tata Busana untuk SMK Jilid 2. Jakarta : Direktorat Pembinaan Sekolah Menengah Kejuruan, Direktorat Jenderal Manajemen Pendidikan Dasar dan Menengah, Departemen Pendidikan Nasional.",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontFamily: "Roboto",
                 fontSize: 14.0,
               ),
@@ -47,7 +48,7 @@ class Referensi extends StatelessWidget {
               MyCustomText(
                 text:
                     "TIM FT Universitas Negeri Surabaya. (2001). Menggambar Sketsa Busana Secara Kering. Jakarta: Departemen Pendidikan Nasional, Proyek Pengembangan Sistem dan Standar Pengelolaan SMK, Direktorat Pendidikan Menengah Kejuruan.",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontFamily: "Roboto",
                 fontSize: 14.0,
               ),
@@ -57,7 +58,7 @@ class Referensi extends StatelessWidget {
               MyCustomText(
                 text:
                     "Widarwati, Sri. (1993) Dasar Desai 1. Yogyakarta: IKIP UNY",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontFamily: "Roboto",
                 fontSize: 14.0,
               ),
@@ -67,7 +68,7 @@ class Referensi extends StatelessWidget {
               MyCustomText(
                 text:
                     "Hasanah, Uswatun dkk. (2011) Menggambar Busana. Jakarta: UNJ",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontFamily: "Roboto",
                 fontSize: 14.0,
               ),
@@ -77,7 +78,7 @@ class Referensi extends StatelessWidget {
               MyCustomText(
                 text:
                     "Bestari, Afif Ghurub. (2011) Menggambar Busana dengan Teknik Kering. Klaten: Intan Sejati",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontFamily: "Roboto",
                 fontSize: 14.0,
               ),
@@ -87,7 +88,7 @@ class Referensi extends StatelessWidget {
               MyCustomText(
                 text:
                     "Bunka Fashion Collage. (1991). Guide to 2160 Items Fashion Design. Jepang: Bunka Publishing Bureau",
-                color: Color(0xFF505050),
+                color: myColor.secondaryColor,
                 fontFamily: "Roboto",
                 fontSize: 14.0,
               ),
