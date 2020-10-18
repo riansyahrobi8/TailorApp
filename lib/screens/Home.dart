@@ -52,7 +52,7 @@ class Home extends StatelessWidget {
                   ),
                   MyCustomText(
                       text:
-                          "Mata Pelajaran Dasar Desain Kelas X SMK Tata Busanan",
+                          "Mata Pelajaran Dasar Desain Kelas X SMK Tata Busana",
                       textAlign: TextAlign.center,
                       fontFamily: "Roboto",
                       fontSize: 14.0,

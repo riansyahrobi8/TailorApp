@@ -79,7 +79,6 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
                     );
                   } else {
                     var data = snapshot.data;
-                    print(data);
                     return GridView.builder(
                       shrinkWrap: true,
                       physics: ScrollPhysics(),

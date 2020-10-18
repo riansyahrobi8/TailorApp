@@ -28,11 +28,11 @@ class Materi extends StatelessWidget {
               ),
               SubMateri(
                 title: "Bentuk atau siluet busana",
-                onTap: () => Navigator.pushNamed(context, definition),
+                onTap: () => Navigator.pushNamed(context, silhouette),
               ),
               SubMateri(
                 title: "Menggambar bagian-bagian busana",
-                onTap: () => Navigator.pushNamed(context, definition),
+                onTap: () => Navigator.pushNamed(context, draw),
               ),
             ],
           ),

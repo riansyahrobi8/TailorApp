@@ -14,3 +14,5 @@ const referensi = '/referensi';
 const dosbing = '/dosbing';
 
 const definition = '/definition';
+const silhouette = '/silhouette';
+const draw = '/draw';

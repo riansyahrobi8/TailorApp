@@ -12,7 +12,9 @@ import 'package:tailorapp/screens/Referensi.dart';
 import 'package:tailorapp/screens/Settings.dart';
 import 'package:tailorapp/screens/SplashScreen.dart';
 import 'package:tailorapp/screens/Videos.dart';
-import 'package:tailorapp/screens/submateri/DefinitionScreen.dart';
+import 'package:tailorapp/screens/materi/DefinitionScreen.dart';
+import 'package:tailorapp/screens/materi/DrawScreen.dart';
+import 'package:tailorapp/screens/materi/SilhouetteScreen.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings routeSettings) {
@@ -41,6 +43,10 @@ class Router {
         return MaterialPageRoute(builder: (_) => Dosbing());
       case definition:
         return MaterialPageRoute(builder: (_) => DefinitionScreen());
+      case silhouette:
+        return MaterialPageRoute(builder: (_) => SilhouetteScreen());
+      case draw:
+        return MaterialPageRoute(builder: (_) => DrawScreen());
       default:
         return MaterialPageRoute(builder: (_) => SplashScreen());
     }
