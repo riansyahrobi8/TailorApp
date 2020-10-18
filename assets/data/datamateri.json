@@ -1,32 +1,56 @@
 [
     {
         "id": 1,
-        "title": "Kompetensi",
-        "image": "icons8-development-skill-96.png"
+        "title": "Garis Leher (Neckline)",
+        "url": "garisleher",
+        "image": "bentukdasargarisleher.jpeg"
     },
     {
         "id": 2,
-        "title": "Materi",
-        "image": "icons8-books-96.png"
+        "title": "Kerah (Collar)",
+        "url": "kerah",
+        "image": "bentukdasarkerah.jpeg"
     },
     {
         "id": 3,
-        "title": "Video",
-        "image": "icons8-video-96.png"
+        "title": "Lengan (Sleeve)",
+        "url": "lengan",
+        "image": "lenganberdasarkanpanjang.jpeg"
     },
     {
         "id": 4,
-        "title": "Evaluasi",
-        "image": "icons8-test-passed-128.png"
+        "title": "Blus (Blouse)",
+        "url": "blus",
+        "image": "blus.jpeg"
     },
     {
         "id": 5,
-        "title": "Referensi",
-        "image": "icons8-document-128.png"
+        "title": "Rok (Skirt)",
+        "url": "rok",
+        "image": "rokberdasarkanpanjangnya.jpeg"
     },
     {
         "id": 6,
-        "title": "Dosen Pembimbing",
-        "image": "icons8-name-96.png"
+        "title": "Celana (Pant)",
+        "url": "celana",
+        "image": "celanaberdasarkanpanjang.jpeg"
+    },
+    {
+        "id": 7,
+        "title": "Manset (Cuff)",
+        "url": "manset",
+        "image": "manset1.jpeg"
+    },
+    {
+        "id": 8,
+        "title": "Saku (Pocket)",
+        "url": "saku",
+        "image": "sakudlm1.jpeg"
+    },
+    {
+        "id": 9,
+        "title": "Belahan (Opening)",
+        "url": "belahan",
+        "image": "belahan1.jpeg"
     }
 ]

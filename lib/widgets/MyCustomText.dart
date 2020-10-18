@@ -8,6 +8,8 @@ class MyCustomText extends StatelessWidget {
   final FontWeight fontWeight;
   final Color color;
   final TextAlign textAlign;
+  final int maxLines;
+  final TextOverflow textOverflow;
 
   const MyCustomText({
     Key key,
@@ -18,6 +20,8 @@ class MyCustomText extends StatelessWidget {
     this.fontWeight,
     this.color,
     this.textAlign,
+    this.maxLines,
+    this.textOverflow,
   }) : super(key: key);
 
   @override
@@ -30,6 +34,8 @@ class MyCustomText extends StatelessWidget {
           fontSize: fontSize,
           fontWeight: fontWeight,
           color: color),
+      maxLines: maxLines,
+      overflow: textOverflow,
     );
   }
 }
