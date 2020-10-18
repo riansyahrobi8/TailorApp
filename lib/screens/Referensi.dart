@@ -16,83 +16,86 @@ class Referensi extends StatelessWidget {
               color: myColor.textColorWhite,
               fontWeight: FontWeight.w800),
         ),
-        body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              SizedBox(
-                height: 8.0,
-              ),
-              MyCustomText(
-                text: "Referensi",
-                fontFamily: "Montserrat",
-                color: myColor.secondaryColor,
-                fontWeight: FontWeight.w800,
-                fontSize: 22.0,
-              ),
-              SizedBox(
-                height: 16.0,
-              ),
-              MyCustomText(
-                text:
-                    "Ernawati, dkk. (2008). Tata Busana untuk SMK Jilid 2. Jakarta : Direktorat Pembinaan Sekolah Menengah Kejuruan, Direktorat Jenderal Manajemen Pendidikan Dasar dan Menengah, Departemen Pendidikan Nasional.",
-                color: myColor.secondaryColor,
-                fontFamily: "Roboto",
-                fontSize: 14.0,
-              ),
-              SizedBox(
-                height: 8.0,
-              ),
-              MyCustomText(
-                text:
-                    "TIM FT Universitas Negeri Surabaya. (2001). Menggambar Sketsa Busana Secara Kering. Jakarta: Departemen Pendidikan Nasional, Proyek Pengembangan Sistem dan Standar Pengelolaan SMK, Direktorat Pendidikan Menengah Kejuruan.",
-                color: myColor.secondaryColor,
-                fontFamily: "Roboto",
-                fontSize: 14.0,
-              ),
-              SizedBox(
-                height: 8.0,
-              ),
-              MyCustomText(
-                text:
-                    "Widarwati, Sri. (1993) Dasar Desai 1. Yogyakarta: IKIP UNY",
-                color: myColor.secondaryColor,
-                fontFamily: "Roboto",
-                fontSize: 14.0,
-              ),
-              SizedBox(
-                height: 8.0,
-              ),
-              MyCustomText(
-                text:
-                    "Hasanah, Uswatun dkk. (2011) Menggambar Busana. Jakarta: UNJ",
-                color: myColor.secondaryColor,
-                fontFamily: "Roboto",
-                fontSize: 14.0,
-              ),
-              SizedBox(
-                height: 8.0,
-              ),
-              MyCustomText(
-                text:
-                    "Bestari, Afif Ghurub. (2011) Menggambar Busana dengan Teknik Kering. Klaten: Intan Sejati",
-                color: myColor.secondaryColor,
-                fontFamily: "Roboto",
-                fontSize: 14.0,
-              ),
-              SizedBox(
-                height: 8.0,
-              ),
-              MyCustomText(
-                text:
-                    "Bunka Fashion Collage. (1991). Guide to 2160 Items Fashion Design. Jepang: Bunka Publishing Bureau",
-                color: myColor.secondaryColor,
-                fontFamily: "Roboto",
-                fontSize: 14.0,
-              ),
-            ],
+        body: SingleChildScrollView(
+          child: Padding(
+            padding:
+                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                SizedBox(
+                  height: 8.0,
+                ),
+                MyCustomText(
+                  text: "Referensi",
+                  fontFamily: "Montserrat",
+                  color: myColor.secondaryColor,
+                  fontWeight: FontWeight.w800,
+                  fontSize: 22.0,
+                ),
+                SizedBox(
+                  height: 16.0,
+                ),
+                MyCustomText(
+                  text:
+                      "Ernawati, dkk. (2008). Tata Busana untuk SMK Jilid 2. Jakarta : Direktorat Pembinaan Sekolah Menengah Kejuruan, Direktorat Jenderal Manajemen Pendidikan Dasar dan Menengah, Departemen Pendidikan Nasional.",
+                  color: myColor.secondaryColor,
+                  fontFamily: "Roboto",
+                  fontSize: 14.0,
+                ),
+                SizedBox(
+                  height: 8.0,
+                ),
+                MyCustomText(
+                  text:
+                      "TIM FT Universitas Negeri Surabaya. (2001). Menggambar Sketsa Busana Secara Kering. Jakarta: Departemen Pendidikan Nasional, Proyek Pengembangan Sistem dan Standar Pengelolaan SMK, Direktorat Pendidikan Menengah Kejuruan.",
+                  color: myColor.secondaryColor,
+                  fontFamily: "Roboto",
+                  fontSize: 14.0,
+                ),
+                SizedBox(
+                  height: 8.0,
+                ),
+                MyCustomText(
+                  text:
+                      "Widarwati, Sri. (1993) Dasar Desai 1. Yogyakarta: IKIP UNY",
+                  color: myColor.secondaryColor,
+                  fontFamily: "Roboto",
+                  fontSize: 14.0,
+                ),
+                SizedBox(
+                  height: 8.0,
+                ),
+                MyCustomText(
+                  text:
+                      "Hasanah, Uswatun dkk. (2011) Menggambar Busana. Jakarta: UNJ",
+                  color: myColor.secondaryColor,
+                  fontFamily: "Roboto",
+                  fontSize: 14.0,
+                ),
+                SizedBox(
+                  height: 8.0,
+                ),
+                MyCustomText(
+                  text:
+                      "Bestari, Afif Ghurub. (2011) Menggambar Busana dengan Teknik Kering. Klaten: Intan Sejati",
+                  color: myColor.secondaryColor,
+                  fontFamily: "Roboto",
+                  fontSize: 14.0,
+                ),
+                SizedBox(
+                  height: 8.0,
+                ),
+                MyCustomText(
+                  text:
+                      "Bunka Fashion Collage. (1991). Guide to 2160 Items Fashion Design. Jepang: Bunka Publishing Bureau",
+                  color: myColor.secondaryColor,
+                  fontFamily: "Roboto",
+                  fontSize: 14.0,
+                ),
+              ],
+            ),
           ),
         ));
   }

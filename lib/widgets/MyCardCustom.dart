@@ -27,7 +27,7 @@ class MyCardCustom extends StatelessWidget {
               children: [
                 Expanded(
                   child: AspectRatio(
-                    aspectRatio: 3 / 2,
+                    aspectRatio: 16 / 9,
                     child: Image.asset(
                       "assets/images/materi/" + url + "/" + image,
                       fit: BoxFit.cover,

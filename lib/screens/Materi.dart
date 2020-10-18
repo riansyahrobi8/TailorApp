@@ -18,23 +18,26 @@ class Materi extends StatelessWidget {
               color: Colors.white,
               fontWeight: FontWeight.w800),
         ),
-        body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-          child: Column(
-            children: [
-              SubMateri(
-                title: "Pengertian bagian-bagian busana",
-                onTap: () => Navigator.pushNamed(context, definition),
-              ),
-              SubMateri(
-                title: "Bentuk atau siluet busana",
-                onTap: () => Navigator.pushNamed(context, silhouette),
-              ),
-              SubMateri(
-                title: "Menggambar bagian-bagian busana",
-                onTap: () => Navigator.pushNamed(context, draw),
-              ),
-            ],
+        body: SingleChildScrollView(
+          child: Padding(
+            padding:
+                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+            child: Column(
+              children: [
+                SubMateri(
+                  title: "Pengertian bagian-bagian busana",
+                  onTap: () => Navigator.pushNamed(context, definition),
+                ),
+                SubMateri(
+                  title: "Bentuk atau siluet busana",
+                  onTap: () => Navigator.pushNamed(context, silhouette),
+                ),
+                SubMateri(
+                  title: "Menggambar bagian-bagian busana",
+                  onTap: () => Navigator.pushNamed(context, draw),
+                ),
+              ],
+            ),
           ),
         ));
   }

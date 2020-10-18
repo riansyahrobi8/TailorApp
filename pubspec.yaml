@@ -51,6 +51,7 @@ flutter:
     - assets/images/materi/garisleher/
     - assets/images/materi/manset/
     - assets/images/materi/saku/
+    - assets/images/materi/submateri/
     - assets/data/datamateri.json
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -15,6 +15,7 @@ import 'package:tailorapp/screens/Videos.dart';
 import 'package:tailorapp/screens/materi/DefinitionScreen.dart';
 import 'package:tailorapp/screens/materi/DrawScreen.dart';
 import 'package:tailorapp/screens/materi/SilhouetteScreen.dart';
+import 'package:tailorapp/screens/materi/submateri/StartDrawScreen.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings routeSettings) {
@@ -47,6 +48,8 @@ class Router {
         return MaterialPageRoute(builder: (_) => SilhouetteScreen());
       case draw:
         return MaterialPageRoute(builder: (_) => DrawScreen());
+      case startdraw:
+        return MaterialPageRoute(builder: (_) => StartDrawScreen());
       default:
         return MaterialPageRoute(builder: (_) => SplashScreen());
     }
