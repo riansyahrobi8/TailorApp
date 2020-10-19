@@ -58,10 +58,10 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
                 fontSize: 14.0,
               ),
               SizedBox(
-                height: 16.0,
+                height: 24.0,
               ),
               MyCustomText(
-                text: "Pengertian bagian-bagian busana",
+                text: "Bagian-bagian busana",
                 fontFamily: "Montserrat",
                 color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,

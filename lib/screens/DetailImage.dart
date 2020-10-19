@@ -21,9 +21,7 @@ class DetailImage extends StatelessWidget {
         child: GestureDetector(
           child: Center(
             child: Hero(
-                tag: tag,
-                child: Image.asset(
-                    "assets/images/materi/submateri/" + image + ".png")),
+                tag: tag, child: Image.asset("assets/images/materi/" + image)),
           ),
           onTap: () => Navigator.pop(context),
         ),
