@@ -1,7 +1,10 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:tailorapp/widgets/MyCustomSilhouette.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
+import 'package:flutter/services.dart' as rootBundle;
 
 class SilhouetteScreen extends StatefulWidget {
   @override
@@ -12,6 +15,11 @@ class _SilhouetteScreenState extends State<SilhouetteScreen> {
   final controller = PageController(
     initialPage: 0,
   );
+
+  Future<dynamic> getSiluets() async {
+    return jsonDecode(
+        await rootBundle.rootBundle.loadString("assets/data/datasiluets.json"));
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,59 +73,26 @@ class _SilhouetteScreenState extends State<SilhouetteScreen> {
                 height: 8.0,
               ),
               Expanded(
-                child: PageView(
-                  controller: controller,
-                  children: [
-                    MyCustomSilhouette(
-                      title: "Siluet A",
-                      tag: "siluetA",
-                      urlImage: "siluet/siluetA",
-                      desc:
-                          "Siluet A merupakan busana yang didesain pada bagian atas kecil dan bagian bawah besar, baik panjang maupun pendek dengan lengan ataupun tanpa lengan.",
-                    ),
-                    MyCustomSilhouette(
-                      title: "Siluet H",
-                      tag: "siluetH",
-                      urlImage: "siluet/siluetH",
-                      desc:
-                          "Siluet H merupakan busana yang didesain menyerupai huruf H atau tabung yang lurus dan tidak memiliki lekuk pinggang serta memiliki garis potongan pada pinggang.",
-                    ),
-                    MyCustomSilhouette(
-                      title: "Siluet I",
-                      tag: "siluetI",
-                      urlImage: "siluet/siluetI",
-                      desc:
-                          "Siluet I merupakan busana yang didesain mempunyai model bagian atas, bagian tengah dan bagian bawah cenderung sama besar atau sama lebar. Namun, ada juga yang pada bagian pinggang sedikit ramping.",
-                    ),
-                    MyCustomSilhouette(
-                      title: "Siluet L",
-                      tag: "siluetL",
-                      urlImage: "siluet/siluetL",
-                      desc:
-                          "Siluet L merupakan busana yang didesain menyerupai siluet I namun diberi tambahan dibagian belakang dengan bentuk panjang atau drapery.",
-                    ),
-                    MyCustomSilhouette(
-                      title: "Siluet S",
-                      tag: "siluetS",
-                      urlImage: "siluet/siluetS",
-                      desc:
-                          "Siluet S merupakan busana yang didesain pada bagian atas besar, kecil pada bagian pinggang dan besar pada bagian bawah (rok).",
-                    ),
-                    MyCustomSilhouette(
-                      title: "Siluet T",
-                      tag: "siluetT",
-                      urlImage: "siluet/siluetT",
-                      desc:
-                          "Siluet T merupakan siluet busana yang didesain kecil pada garis leher, besar pada lengan dan kecil pada bagan bawah (rok).",
-                    ),
-                    MyCustomSilhouette(
-                      title: "Siluet Y",
-                      tag: "siluetY",
-                      urlImage: "siluet/siluetY",
-                      desc:
-                          "Siluet Y merupakan busana yang didesain pada bagian atas lebar dengan garis leher V dan bagian bawah (rok) mengecil atau menyempit.",
-                    ),
-                  ],
+                child: FutureBuilder(
+                  future: getSiluets(),
+                  builder: (context, snapshot) {
+                    if (!snapshot.hasData) {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    } else {
+                      var data = snapshot.data;
+                      return PageView.builder(
+                        itemBuilder: (context, index) => MyCustomSilhouette(
+                          title: data[index]['title'],
+                          tag: data[index]['tag'],
+                          urlImage: data[index]['urlImage'],
+                          desc: data[index]['desc'],
+                        ),
+                        itemCount: data.length,
+                      );
+                    }
+                  },
                 ),
               ),
             ],
