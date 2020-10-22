@@ -12,7 +12,7 @@ class StartDrawScreen extends StatelessWidget {
         appBar: AppBar(
           iconTheme: IconThemeData(color: myColor.textColorWhite),
           title: MyCustomText(
-              text: "Menggambar",
+              text: "Prosedur Menggambar",
               fontSize: 16.0,
               fontFamily: "Montserrat",
               color: myColor.textColorWhite,

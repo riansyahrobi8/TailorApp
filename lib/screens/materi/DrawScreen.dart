@@ -346,13 +346,12 @@ class DrawScreen extends StatelessWidget {
                       minWidth: 160.0,
                       child: RaisedButton(
                         onPressed: () {
-                          return Navigator.pushNamed
-                          (context, startdraw);
+                          return Navigator.pushNamed(context, startdraw);
                         },
                         color: myColor.primaryColor,
                         child: MyCustomText(
-                            text: "Mulai Menggambar",
-                            fontSize: 22.0,
+                            text: "Prosedur Menggambar",
+                            fontSize: 18.0,
                             fontFamily: "Montserrat",
                             color: myColor.textColorWhite),
                         shape: RoundedRectangleBorder(

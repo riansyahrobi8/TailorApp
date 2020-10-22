@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/routing/const_routing.dart';
 import 'package:tailorapp/screens/AboutApp.dart';
-import 'package:tailorapp/screens/Dosbing.dart';
 import 'package:tailorapp/screens/Evaluasi.dart';
 import 'package:tailorapp/screens/Home.dart';
 import 'package:tailorapp/screens/Kompetensi.dart';
@@ -40,8 +39,6 @@ class Router {
         return MaterialPageRoute(builder: (_) => Evaluasi());
       case referensi:
         return MaterialPageRoute(builder: (_) => Referensi());
-      case dosbing:
-        return MaterialPageRoute(builder: (_) => Dosbing());
       case definition:
         return MaterialPageRoute(builder: (_) => DefinitionScreen());
       case silhouette:

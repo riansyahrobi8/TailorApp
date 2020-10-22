@@ -25,15 +25,15 @@ class Materi extends StatelessWidget {
             child: Column(
               children: [
                 SubMateri(
-                  title: "Pengertian bagian-bagian busana",
+                  title: "Pengertian Bagian-Bagian Busana",
                   onTap: () => Navigator.pushNamed(context, definition),
                 ),
                 SubMateri(
-                  title: "Bentuk atau siluet busana",
+                  title: "Bentuk atau Siluet Busana",
                   onTap: () => Navigator.pushNamed(context, silhouette),
                 ),
                 SubMateri(
-                  title: "Menggambar bagian-bagian busana",
+                  title: "Menggambar Bagian-Bagian Busana",
                   onTap: () => Navigator.pushNamed(context, draw),
                 ),
               ],

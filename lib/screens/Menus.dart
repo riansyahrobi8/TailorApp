@@ -41,33 +41,33 @@ class _MenusState extends State<Menus> {
           children: [
             MyMenuItems(
               image: "icons8-development-skill-96.png",
+              color: myColor.kompetensiColor,
               text: "Kompetensi",
               onTap: () => Navigator.pushNamed(context, kompetensi),
             ),
             MyMenuItems(
               image: "icons8-books-96.png",
+              color: myColor.materiColor,
               text: "Materi",
               onTap: () => Navigator.pushNamed(context, materi),
             ),
             MyMenuItems(
               image: "icons8-video-96.png",
+              color: myColor.videoColor,
               text: "Video",
               onTap: () => Navigator.pushNamed(context, video),
             ),
             MyMenuItems(
               image: "icons8-test-passed-128.png",
+              color: myColor.evaluasiColor,
               text: "Evaluasi",
               onTap: () => Navigator.pushNamed(context, evaluasi),
             ),
             MyMenuItems(
               image: "icons8-document-128.png",
+              color: myColor.referensiColor,
               text: "Referensi",
               onTap: () => Navigator.pushNamed(context, referensi),
-            ),
-            MyMenuItems(
-              image: "icons8-name-96.png",
-              text: "Dosen Pembimbing",
-              onTap: () => Navigator.pushNamed(context, dosbing),
             ),
           ],
         ),

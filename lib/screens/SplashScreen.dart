@@ -49,6 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     fit: BoxFit.cover,
                   ),
                 )),
+            CircularProgressIndicator(),
             MyCustomText(
                 text: _name,
                 fontSize: 18,

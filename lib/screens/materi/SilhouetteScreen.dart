@@ -43,7 +43,7 @@ class _SilhouetteScreenState extends State<SilhouetteScreen> {
                 height: 8.0,
               ),
               MyCustomText(
-                text: "Bentuk atau Siluet busana",
+                text: "Bentuk atau Siluet Busana",
                 fontFamily: "Montserrat",
                 color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,

@@ -41,7 +41,7 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
                 height: 8.0,
               ),
               MyCustomText(
-                text: "Pengertian bagian-bagian busana",
+                text: "Pengertian Bagian-Bagian Busana",
                 fontFamily: "Montserrat",
                 color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,
@@ -61,7 +61,7 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
                 height: 24.0,
               ),
               MyCustomText(
-                text: "Bagian-bagian busana",
+                text: "Bagian-Bagian Busana",
                 fontFamily: "Montserrat",
                 color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,
