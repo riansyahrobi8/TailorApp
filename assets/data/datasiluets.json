@@ -3,42 +3,48 @@
         "id": 1,
         "title": "Siluet A",
         "tag": "siluetA",
-        "urlImage": "siluet/siluetA",
+        "urlImage": "materi/siluet",
+        "image": "siluetA.jpeg",
         "desc": "Siluet A merupakan busana yang didesain pada bagian atas kecil dan bagian bawah besar, baik panjang maupun pendek dengan lengan ataupun tanpa lengan."
     },
     {
         "id": 2,
         "title": "Siluet I",
         "tag": "siluetI",
-        "urlImage": "siluet/siluetI",
+        "urlImage": "materi/siluet",
+        "image": "siluetI.jpeg",
         "desc": "Siluet I merupakan busana yang didesain mempunyai model bagian atas, bagian tengah dan bagian bawah cenderung sama besar atau sama lebar. Namun, ada juga yang pada bagian pinggang sedikit ramping."
     },
     {
         "id": 3,
         "title": "Siluet L",
         "tag": "siluetL",
-        "urlImage": "siluet/siluetL",
+        "urlImage": "materi/siluet",
+        "image": "siluetL.jpeg",
         "desc": "Siluet L merupakan busana yang didesain menyerupai siluet I namun diberi tambahan dibagian belakang dengan bentuk panjang atau drapery."
     },
     {
         "id": 4,
         "title": "Siluet S",
         "tag": "siluetS",
-        "urlImage": "siluet/siluetS",
+        "urlImage": "materi/siluet",
+        "image": "siluetS.jpeg",
         "desc": "Siluet S merupakan busana yang didesain pada bagian atas besar, kecil pada bagian pinggang dan besar pada bagian bawah (rok)."
     },
     {
         "id": 5,
         "title": "Siluet T",
         "tag": "siluetT",
-        "urlImage": "siluet/siluetT",
+        "urlImage": "materi/siluet",
+        "image": "siluetT.jpeg",
         "desc": "Siluet T merupakan siluet busana yang didesain kecil pada garis leher, besar pada lengan dan kecil pada bagan bawah (rok)."
     },
     {
         "id": 6,
         "title": "Siluet Y",
         "tag": "siluetY",
-        "urlImage": "siluet/siluetY",
+        "urlImage": "materi/siluet",
+        "image": "siluetY.jpeg",
         "desc": "Siluet Y merupakan busana yang didesain pada bagian atas lebar dengan garis leher V dan bagian bawah (rok) mengecil atau menyempit."
     }
 ]

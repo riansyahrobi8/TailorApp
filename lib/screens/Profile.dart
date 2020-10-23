@@ -25,6 +25,7 @@ class Profile extends StatelessWidget {
               children: [
                 MyCustomProfile(
                   title: "Mahasiswa",
+                  tag: "mhs",
                   image: "profile.jpg",
                   nip: "14513244022",
                   name: "Tri Annisa",
@@ -41,6 +42,7 @@ class Profile extends StatelessWidget {
                 ),
                 MyCustomProfile(
                   title: "Dosen Pembimbing",
+                  tag: "dosbing",
                   image: "dosbing.jpg",
                   nip: "197202081998021001",
                   name: "Triyanto, S.Sn., M.A.",

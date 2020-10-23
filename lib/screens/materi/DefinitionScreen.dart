@@ -87,9 +87,9 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
                           childAspectRatio: size.width / (size.height / 1.25)),
                       itemCount: data.length,
                       itemBuilder: (context, index) => MyCardCustom(
-                        image: data[index]['image'],
                         title: data[index]['title'],
-                        url: data[index]['url'],
+                        urlImage: data[index]['urlImage'],
+                        image: data[index]['image'],
                       ),
                     );
                   }

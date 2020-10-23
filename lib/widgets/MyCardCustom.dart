@@ -5,14 +5,14 @@ import 'package:tailorapp/utils/customColor.dart' as myColor;
 class MyCardCustom extends StatelessWidget {
   final int id;
   final String image;
-  final String url;
+  final String urlImage;
   final String title;
   const MyCardCustom({
     Key key,
     this.id,
     this.image,
     this.title,
-    this.url,
+    this.urlImage,
   }) : super(key: key);
 
   @override
@@ -29,7 +29,7 @@ class MyCardCustom extends StatelessWidget {
                   child: AspectRatio(
                     aspectRatio: 16 / 9,
                     child: Image.asset(
-                      "assets/images/materi/" + url + "/" + image,
+                      "assets/images/" + urlImage + "/" + image,
                       fit: BoxFit.cover,
                     ),
                   ),

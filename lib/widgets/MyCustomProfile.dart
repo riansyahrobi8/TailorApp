@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:tailorapp/routing/const_routing.dart';
+import 'package:tailorapp/screens/DetailImage.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class MyCustomProfile extends StatelessWidget {
-  final String nip, name, email, address, ig, majors, image, title;
+  final String nip, name, email, address, ig, majors, image, title, tag;
   final IconData emailIcon, igIcon;
 
   const MyCustomProfile({
@@ -18,10 +20,13 @@ class MyCustomProfile extends StatelessWidget {
     this.igIcon,
     this.image,
     this.title,
+    this.tag,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    var urlImage = "profile";
+
     return Card(
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -42,7 +47,7 @@ class MyCustomProfile extends StatelessWidget {
           Divider(),
           GestureDetector(
             child: Hero(
-              tag: 'mhs',
+              tag: tag,
               child: Container(
                 margin: const EdgeInsets.symmetric(vertical: 24.0),
                 decoration: BoxDecoration(
@@ -54,7 +59,7 @@ class MyCustomProfile extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(152.0),
                   child: Image.asset(
-                    "assets/images/$image",
+                    "assets/images/" + urlImage + "/" + image,
                     width: 156.0,
                     height: 156.0,
                     fit: BoxFit.cover,
@@ -62,7 +67,14 @@ class MyCustomProfile extends StatelessWidget {
                 ),
               ),
             ),
-            onTap: null,
+            onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (_) => DetailImage(
+                          tag: profile,
+                          urlImage: urlImage,
+                          image: image,
+                        ))),
           ),
           MyCustomText(
               text: nip,

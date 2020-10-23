@@ -5,6 +5,7 @@ import 'package:tailorapp/utils/customColor.dart' as myColor;
 import 'package:tailorapp/widgets/MyCustomText.dart';
 
 class MyCustomSilhouette extends StatelessWidget {
+  final String image;
   final String urlImage;
   final String tag;
   final String desc;
@@ -12,10 +13,11 @@ class MyCustomSilhouette extends StatelessWidget {
 
   const MyCustomSilhouette({
     Key key,
-    this.urlImage,
+    this.image,
     this.tag,
     this.desc,
     this.title,
+    this.urlImage,
   }) : super(key: key);
 
   @override
@@ -32,7 +34,7 @@ class MyCustomSilhouette extends StatelessWidget {
                   child: AspectRatio(
                     aspectRatio: 16 / 9,
                     child: Image.asset(
-                      "assets/images/materi/" + urlImage + ".jpeg",
+                      "assets/images/" + urlImage + "/" + image,
                     ),
                   ),
                 ),
@@ -43,7 +45,8 @@ class MyCustomSilhouette extends StatelessWidget {
                 MaterialPageRoute(
                   builder: (_) => DetailImage(
                     tag: silhouette,
-                    image: "$urlImage.jpeg",
+                    urlImage: "$urlImage",
+                    image: "$image",
                   ),
                 ))),
         SizedBox(

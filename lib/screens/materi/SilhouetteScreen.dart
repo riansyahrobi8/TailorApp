@@ -87,6 +87,7 @@ class _SilhouetteScreenState extends State<SilhouetteScreen> {
                           title: data[index]['title'],
                           tag: data[index]['tag'],
                           urlImage: data[index]['urlImage'],
+                          image: data[index]['image'],
                           desc: data[index]['desc'],
                         ),
                         itemCount: data.length,

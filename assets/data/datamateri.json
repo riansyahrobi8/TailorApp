@@ -2,55 +2,55 @@
     {
         "id": 1,
         "title": "Garis Leher (Neckline)",
-        "url": "garisleher",
+        "urlImage": "materi/garisleher",
         "image": "bentukdasargarisleher.jpeg"
     },
     {
         "id": 2,
         "title": "Kerah (Collar)",
-        "url": "kerah",
+        "urlImage": "materi/kerah",
         "image": "bentukdasarkerah.jpeg"
     },
     {
         "id": 3,
         "title": "Lengan (Sleeve)",
-        "url": "lengan",
+        "urlImage": "materi/lengan",
         "image": "lenganberdasarkanpanjang.jpeg"
     },
     {
         "id": 4,
         "title": "Blus (Blouse)",
-        "url": "blus",
+        "urlImage": "materi/blus",
         "image": "blus.jpeg"
     },
     {
         "id": 5,
         "title": "Rok (Skirt)",
-        "url": "rok",
+        "urlImage": "materi/rok",
         "image": "rokberdasarkanpanjangnya.jpeg"
     },
     {
         "id": 6,
         "title": "Celana (Pant)",
-        "url": "celana",
+        "urlImage": "materi/celana",
         "image": "celanaberdasarkanpanjang.jpeg"
     },
     {
         "id": 7,
         "title": "Manset (Cuff)",
-        "url": "manset",
+        "urlImage": "materi/manset",
         "image": "manset1.jpeg"
     },
     {
         "id": 8,
         "title": "Saku (Pocket)",
-        "url": "saku",
+        "urlImage": "materi/saku",
         "image": "sakudlm1.jpeg"
     },
     {
         "id": 9,
         "title": "Belahan (Opening)",
-        "url": "belahan",
+        "urlImage": "materi/belahan",
         "image": "belahan1.jpeg"
     }
 ]

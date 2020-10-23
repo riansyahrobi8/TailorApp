@@ -7,6 +7,8 @@ import 'package:tailorapp/widgets/MyCustomText.dart';
 class StartDrawScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var urlImage = "materi/submateri";
+
     return Scaffold(
         backgroundColor: myColor.backgroundColor,
         appBar: AppBar(
@@ -114,7 +116,7 @@ class StartDrawScreen extends StatelessWidget {
                           tag: "draw1",
                           child: Card(
                             child: Image.asset(
-                                "assets/images/materi/submateri/draw1.png",
+                                "assets/images/" + urlImage + "/draw1.png",
                                 width: double.infinity,
                                 fit: BoxFit.cover),
                           ),
@@ -123,8 +125,9 @@ class StartDrawScreen extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (_) => DetailImage(
-                                      tag: draw,
-                                      image: "submateri/draw1.png",
+                                      tag: startdraw,
+                                      urlImage: urlImage,
+                                      image: "draw1.png",
                                     ))),
                       ),
                     ],
@@ -270,7 +273,7 @@ class StartDrawScreen extends StatelessWidget {
                           tag: "draw2",
                           child: Card(
                             child: Image.asset(
-                                "assets/images/materi/submateri/draw2.png",
+                                "assets/images/" + urlImage + "/draw2.png",
                                 width: double.infinity,
                                 fit: BoxFit.cover),
                           ),
@@ -279,8 +282,9 @@ class StartDrawScreen extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (_) => DetailImage(
-                                      tag: draw,
-                                      image: "submateri/draw2.png",
+                                      tag: startdraw,
+                                      urlImage: urlImage,
+                                      image: "draw2.png",
                                     ))),
                       ),
                     ],
@@ -399,7 +403,7 @@ class StartDrawScreen extends StatelessWidget {
                           tag: "draw3",
                           child: Card(
                             child: Image.asset(
-                                "assets/images/materi/submateri/draw3.png",
+                                "assets/images/" + urlImage + "/draw3.png",
                                 width: double.infinity,
                                 fit: BoxFit.cover),
                           ),
@@ -408,8 +412,9 @@ class StartDrawScreen extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (_) => DetailImage(
-                                      tag: draw,
-                                      image: "submateri/draw3.png",
+                                      tag: startdraw,
+                                      urlImage: urlImage,
+                                      image: "draw3.png",
                                     ))),
                       ),
                     ],
@@ -527,7 +532,7 @@ class StartDrawScreen extends StatelessWidget {
                           tag: "draw4",
                           child: Card(
                             child: Image.asset(
-                                "assets/images/materi/submateri/draw4.png",
+                                "assets/images/" + urlImage + "/draw4.png",
                                 width: double.infinity,
                                 fit: BoxFit.cover),
                           ),
@@ -536,8 +541,9 @@ class StartDrawScreen extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (_) => DetailImage(
-                                      tag: draw,
-                                      image: "submateri/draw4.png",
+                                      tag: startdraw,
+                                      urlImage: urlImage,
+                                      image: "draw4.png",
                                     ))),
                       ),
                     ],
@@ -655,7 +661,7 @@ class StartDrawScreen extends StatelessWidget {
                           tag: "draw5",
                           child: Card(
                             child: Image.asset(
-                                "assets/images/materi/submateri/draw5.png",
+                                "assets/images/" + urlImage + "/draw5.png",
                                 width: double.infinity,
                                 fit: BoxFit.cover),
                           ),
@@ -664,8 +670,9 @@ class StartDrawScreen extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (_) => DetailImage(
-                                      tag: draw,
-                                      image: "submateri/draw5.png",
+                                      tag: startdraw,
+                                      urlImage: urlImage,
+                                      image: "draw5.png",
                                     ))),
                       ),
                     ],
@@ -809,7 +816,7 @@ class StartDrawScreen extends StatelessWidget {
                           tag: "draw6",
                           child: Card(
                             child: Image.asset(
-                                "assets/images/materi/submateri/draw6.png",
+                                "assets/images/" + urlImage + "/draw6.png",
                                 width: double.infinity,
                                 fit: BoxFit.cover),
                           ),
@@ -818,8 +825,9 @@ class StartDrawScreen extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (_) => DetailImage(
-                                      tag: draw,
-                                      image: "submateri/draw6.png",
+                                      tag: startdraw,
+                                      urlImage: urlImage,
+                                      image: "draw6.png",
                                     ))),
                       ),
                     ],
