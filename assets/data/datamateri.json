@@ -3,37 +3,167 @@
         "id": 1,
         "title": "Garis Leher (Neckline)",
         "urlImage": "materi/garisleher",
-        "image": "bentukdasargarisleher.jpeg"
+        "image": "bentukdasargarisleher.jpeg",
+        "definitions": "Garis leher merupakan bentuk pakaian yang terletak paling atas disekitar leher atau biasa disebut sebagai tanda garis leher. Bentuk  garis  leher  banyak  variasinya,  neckline namun bentuk dasar garis leher dikelompokkan menjadi 3 yaitu garis leher bulat (round neckline), garis leher persegi (square neckline), garis leher V ( V).",
+        "detail": [
+            {
+                "name": "Garis Leher Bulat (Round Neckline)",
+                "images": "glbulat.jpeg"
+            },
+            {
+                "name": "Garis Leher Persegi (Square Neckline)",
+                "images": "glpersegi.jpeg"
+            },
+            {
+                "name": "Garis Leher V (V Neckline)",
+                "images": "glv.jpeg"
+            },
+            {
+                "name": "Garis Leher Lain (Other Neckline)",
+                "images": "gllain.jpeg"
+            }
+        ]
     },
     {
         "id": 2,
         "title": "Kerah (Collar)",
         "urlImage": "materi/kerah",
-        "image": "bentukdasarkerah.jpeg"
+        "image": "bentukdasarkerah.jpeg",
+        "definitions": "Kerah adalah tambahan potongan kain yang digunakan untuk menyelesaikan garis leher. Bentuk dasar kerah terdiri dari kerah rebah (flat collar), kerah rol (roll collar), dan kerah tegak (stand collar).",
+        "detail": [
+            {
+                "name": "Kerah Rebah 1 (First Flat Collar)",
+                "images": "kerahrebah1.jpeg"
+            },
+            {
+                "name": "Kerah Rebah 2 (Second Flat Collar)",
+                "images": "kerahrebah2.jpeg"
+            },
+            {
+                "name": "Kerah Roll 1 (First Roll Collar)",
+                "images": "kerahrol1.jpeg"
+            },
+            {
+                "name": "Kerah Roll 2 (Second Roll Collar)",
+                "images": "kerahrol2.jpeg"
+            },
+            {
+                "name": "Kerah Roll 3 (Third Roll Collar)",
+                "images": "kerahrol3.jpeg"
+            },
+            {
+                "name": "Kerah Tegak (Stand Collar)",
+                "images": "kerahtegak.jpeg"
+            }
+        ]
     },
     {
         "id": 3,
         "title": "Lengan (Sleeve)",
         "urlImage": "materi/lengan",
-        "image": "lenganberdasarkanpanjang.jpeg"
+        "image": "lenganberdasarkanpanjang.jpeg",
+        "definitions": "Lengan adalah bagian busana yang menutupi lengan. Menurut bentuknya, lengan dapat dibedakan menjadi dua yaitu lengan yang dipasangkan (set in sleeves) dan lengan setali. Lengan yang dipasangkan adalah lengan yang secara konstruksi berdiri sendiri sehingga terdapat jahitan atau sambungan pada kerung lengan. Lengan setali adalah lengan yang menjadi satu dengan badan yang tidak terdapat potongan atau sambungan pada kerung lengan. Berdasarkan panjangnya lengan terdiri dari bagian bagian sebagai berikut: Cap Sleeve, yaitu lengan yang panjangnya sanpai puncak lengan. Short sleeve, yaitu lengan yang panjangnya sampai pertengahan pangkal lengan. Elbow, yaitu lengan yang panjangnya sampai siku. Three Quarter lenght, yaitu lengan yang panjangnya tiga perempat panjang lengan. Wrist, yaitu lengan yang panjangnya samapi mata tangan.",
+        "detail": [
+            {
+                "name": "Lengan Dipasangkan 1",
+                "images": "lengandipasangkan1.jpeg"
+            },
+            {
+                "name": "Lengan Dipasangkan 2",
+                "images": "lengandipasangkan2.jpeg"
+            },
+            {
+                "name": "Lengan Dipasangkan 3",
+                "images": "lengandipasangkan3.jpeg"
+            },
+            {
+                "name": "Lengan Dipasangkan 4",
+                "images": "lengandipasangkan4.jpeg"
+            },
+            {
+                "name": "Lengan Setali 1",
+                "images": "lengansetali1.jpeg"
+            },
+            {
+                "name": "Lengan Setali 2",
+                "images": "lengansetali2.jpeg"
+            }
+        ]
     },
     {
         "id": 4,
         "title": "Blus (Blouse)",
         "urlImage": "materi/blus",
-        "image": "blus.jpeg"
+        "image": "blus.jpeg",
+        "definitions": "Blus adalah busana yang dikenakan pada badan atas dengan membentuk badan. Membentuk badan disini bisa terjadi karena adanya kupnat atau pola yang dimasukkan. Blus biasanya dikenakan oleh wanita.",
+        "detail": [
+            {
+                "name": "Blus 1 (First Blouse)",
+                "images": "blus1.jpeg"
+            },
+            {
+                "name": "Blus 2 (Second Blouse)",
+                "images": "blus2.jpeg"
+            },
+            {
+                "name": "Blus 3 (Third Blouse)",
+                "images": "blus3.jpeg"
+            },
+            {
+                "name": "Blus 4 (Fourth Blouse)",
+                "images": "blus4.jpeg"
+            }
+        ]
     },
     {
         "id": 5,
         "title": "Rok (Skirt)",
         "urlImage": "materi/rok",
-        "image": "rokberdasarkanpanjangnya.jpeg"
+        "image": "rokberdasarkanpanjangnya.jpeg",
+        "definitions": "Rok adalah bagian busana yang dikenakan pada tubuh bagian bawah, dimulai dari bagian pinggang sampai panjang kebawah sesuai yang diinginkan dengan menggunakan satu lubang. Berdasarkan desain, rok dikelompokkan atas rok suai/lurus (straight), rok kerut (gathered), rok lipit (pleated), rok lingkaran atau setengah lingkaran (flared), rok pias (seam) dan rok draperi. Selain model-model yang disebutkan di atas masih ada model rok lain yang merupakan kombinasi model-model di atas yang ditambahkan detail-detailnya. Berdasarkan panjangnya, rok dikelompokkan atas: Micro, yaitu rok yang hanya cukup menutupi panggul. Mini, yaitu rok yang panjangnya sampai pertengahan paha. Knee, yaitu rok yang panjangnya sampai lutut. Midi, yaitu rok yang panjangnya sampai pertengahan betis. Maxi, yaitu rok yang panjangnya sampai diatas mata kaki. Ankle, yaitu rok yang panjangnya sampai mata kaki. Floor (longdress) yaitu rok yang panjangnya sampai menyetuh lantai.",
+        "detail": [
+            {
+                "name": "Rok 1 (First Skirt)",
+                "images": "rok1.jpeg"
+            },
+            {
+                "name": "Rok 2 (Second Skirt)",
+                "images": "rok2.jpeg"
+            },
+            {
+                "name": "Rok 3 (Third Skirt)",
+                "images": "rok3.jpeg"
+            },
+            {
+                "name": "Rok 4 (Fourth Skirt)",
+                "images": "rok4.jpeg"
+            },
+            {
+                "name": "Rok 5 (Fifth Skirt)",
+                "images": "rok5.jpeg"
+            }
+        ]
     },
     {
         "id": 6,
         "title": "Celana (Pant)",
         "urlImage": "materi/celana",
-        "image": "celanaberdasarkanpanjang.jpeg"
+        "image": "celanaberdasarkanpanjang.jpeg",
+        "definitions": "Celana merupakan busana yang digunakan pada tubuh bagian bawah dimulai dari pinggang dengan menggunakan dua lubang (pipa). Berdasarkan panjangnya, celana terdiri dari: Short, yaitu celana yang panjangnya cukup menutupi panggul. Jamaica, yaitu celana yang panjangnya pertengahan paha. Bermuda, yaitu celana yang panjangnya sampai di atas lutut. dedal, yaitu celana yang panjangnya sampai bawah lutut. Capri, yaitu celana yang panjangnya sampai diatas mata kaki. Full length, yaitu celana yang panjangnya sampai mata kaki.",
+        "detail": [
+            {
+                "name": "Celana 1 (First Pant)",
+                "images": "celana1.jpeg"
+            },
+            {
+                "name": "Celana 2 (Second Pant)",
+                "images": "celana2.jpeg"
+            },
+            {
+                "name": "Celana 3 (Third Pant)",
+                "images": "celana3.jpeg"
+            }
+        ]
     },
     {
         "id": 7,
