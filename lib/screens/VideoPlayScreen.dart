@@ -45,28 +45,52 @@ class _VideoPlayScreenState extends State<VideoPlayScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: myColor.backgroundColor,
-      appBar: AppBar(
-        iconTheme: IconThemeData(color: Colors.white),
-        title: MyCustomText(
-            text: widget.videoItem.video.title,
-            textOverflow: TextOverflow.ellipsis,
-            fontSize: 16.0,
-            fontFamily: "Montserrat",
-            color: Colors.white,
-            fontWeight: FontWeight.w800),
-      ),
-      body: Container(
-        child: YoutubePlayer(
-          controller: _youtubePlayerController,
-          showVideoProgressIndicator: true,
-          onReady: () {
-            print("Player is ready");
-            _isPlayerReady = true;
-          },
-        ),
-      ),
+    return OrientationBuilder(
+      builder: (BuildContext context, Orientation orientation) {
+        if (orientation == Orientation.portrait) {
+          return Scaffold(
+            backgroundColor: Colors.black,
+            appBar: AppBar(
+              iconTheme: IconThemeData(color: Colors.white),
+              title: MyCustomText(
+                  text: widget.videoItem.video.title,
+                  textOverflow: TextOverflow.ellipsis,
+                  fontSize: 16.0,
+                  fontFamily: "Montserrat",
+                  color: Colors.white,
+                  fontWeight: FontWeight.w800),
+            ),
+            body: Center(
+              child: Container(
+                child: YoutubePlayer(
+                  controller: _youtubePlayerController,
+                  showVideoProgressIndicator: true,
+                  onReady: () {
+                    print("Player is ready");
+                    _isPlayerReady = true;
+                  },
+                ),
+              ),
+            ),
+          );
+        } else {
+          return Scaffold(
+            backgroundColor: Colors.black,
+            body: Center(
+              child: Container(
+                child: YoutubePlayer(
+                  controller: _youtubePlayerController,
+                  showVideoProgressIndicator: true,
+                  onReady: () {
+                    print("Player is ready");
+                    _isPlayerReady = true;
+                  },
+                ),
+              ),
+            ),
+          );
+        }
+      },
     );
   }
 }
