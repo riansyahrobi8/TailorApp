@@ -12,9 +12,7 @@ class SilhouetteScreen extends StatefulWidget {
 }
 
 class _SilhouetteScreenState extends State<SilhouetteScreen> {
-  final controller = PageController(
-    initialPage: 0,
-  );
+  final controller = PageController(initialPage: 0, viewportFraction: 0.9);
 
   Future<dynamic> getSiluets() async {
     return jsonDecode(
@@ -83,6 +81,7 @@ class _SilhouetteScreenState extends State<SilhouetteScreen> {
                     } else {
                       var data = snapshot.data;
                       return PageView.builder(
+                        controller: controller,
                         itemBuilder: (context, index) => MyCustomSilhouette(
                           title: data[index]['title'],
                           tag: data[index]['tag'],

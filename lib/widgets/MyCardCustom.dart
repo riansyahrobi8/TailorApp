@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tailorapp/screens/materi/DetailDefinition.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
 
@@ -55,7 +56,8 @@ class MyCardCustom extends StatelessWidget {
                 height: 24.0,
                 minWidth: 72.0,
                 child: RaisedButton(
-                  onPressed: () {},
+                  onPressed: () => Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => DetailDefinition())),
                   color: myColor.primaryColor,
                   child: MyCustomText(
                       text: "Detail",

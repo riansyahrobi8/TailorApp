@@ -169,18 +169,71 @@
         "id": 7,
         "title": "Manset (Cuff)",
         "urlImage": "materi/manset",
-        "image": "manset1.jpeg"
+        "image": "manset1.jpeg",
+        "definitions": "Manset merupakan penyelesaian akhir dari ujung lengan dengan menggunakan bahan atau kain.",
+        "detail": [
+            {
+                "name": "Manset 1 (First Cuff)",
+                "images": "manset1.jpeg"
+            },
+            {
+                "name": "Manset 2 (Second Cuff)",
+                "images": "manset2.jpeg"
+            },
+            {
+                "name": "Manset 3 (Third Cuff)",
+                "images": "manset3.jpeg"
+            }
+        ]
     },
     {
         "id": 8,
         "title": "Saku (Pocket)",
         "urlImage": "materi/saku",
-        "image": "sakudlm1.jpeg"
+        "image": "sakudlm1.jpeg",
+        "definitions": "Saku biasanya disebut sebagai kantong kecil rata yang dijahitkan pada busana dan digunakan untuk menyimpang. Saku terdiri dari saku tempel dan saku dalam. Saku tempel (set on pocket/ out pocket) yaitu saku yang kantongnya menempel diatas permukaan kain atau busana sedangkan saku dalam (set in pocket) yaitu saku yang kantongnya berada didalam busana dan hanya lubang sakunya saja yang terlihat dipermukaan.",
+        "detail": [
+            {
+                "name": "Saku Dalam 1 (First Set-In Pocket)",
+                "images": "sakudlm1.jpeg"
+            },
+            {
+                "name": "Saku Dalam 2 (Second Set-In Pocket)",
+                "images": "sakudlm2.jpeg"
+            },
+            {
+                "name": "Saku Dalam 3 (Third Set-In Pocket)",
+                "images": "sakudlm3.jpeg"
+            },
+            {
+                "name": "Saku Tempel 1 (First Set-On Pocket)",
+                "images": "sakutempel1.jpeg"
+            },
+            {
+                "name": "Saku Tempel 2 (Second Set-On Pocket)",
+                "images": "sakutempel2.jpeg"
+            }
+        ]
     },
     {
         "id": 9,
         "title": "Belahan (Opening)",
         "urlImage": "materi/belahan",
-        "image": "belahan1.jpeg"
+        "image": "belahan1.jpeg",
+        "definitions": "Belahan adalah pengikat dua bagian busana menjadi satu. Untuk mengikat busana diantaranya menggunkan kancing hias (buttons), kancing tekan (snaps), kancing kait (hook), resliting (zipper), dan sengkelit (lacing).",
+        "detail": [
+            {
+                "name": "Belahan 1 (First Opening)",
+                "images": "belahan1.jpeg"
+            },
+            {
+                "name": "Belahan 2 (Second Opening)",
+                "images": "belahan2.jpeg"
+            },
+            {
+                "name": "Belahan 3 (Third Opening)",
+                "images": "belahan3.jpeg"
+            }
+        ]
     }
 ]
