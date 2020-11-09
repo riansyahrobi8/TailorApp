@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tailorapp/models/videos_list_model.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class VideoPlayScreen extends StatefulWidget {
   VideoPlayScreen({this.videoItem});

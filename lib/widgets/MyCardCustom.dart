@@ -8,12 +8,17 @@ class MyCardCustom extends StatelessWidget {
   final String image;
   final String urlImage;
   final String title;
-  const MyCardCustom({
+  final String definitions;
+  final List details;
+
+  MyCardCustom({
     Key key,
     this.id,
     this.image,
     this.title,
     this.urlImage,
+    this.definitions,
+    this.details,
   }) : super(key: key);
 
   @override
@@ -56,8 +61,17 @@ class MyCardCustom extends StatelessWidget {
                 height: 24.0,
                 minWidth: 72.0,
                 child: RaisedButton(
-                  onPressed: () => Navigator.push(context,
-                      MaterialPageRoute(builder: (_) => DetailDefinition())),
+                  onPressed: () =>
+                      Navigator.push(context, MaterialPageRoute(builder: (_) {
+                    return DetailDefinition(
+                      id: id,
+                      image: image,
+                      urlImage: urlImage,
+                      title: title,
+                      definitions: definitions,
+                      details: details,
+                    );
+                  })),
                   color: myColor.primaryColor,
                   child: MyCustomText(
                       text: "Detail",

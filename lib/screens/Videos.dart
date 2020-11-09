@@ -139,45 +139,45 @@ class _VideosState extends State<Videos> {
     );
   }
 
-  _buildInfoView() {
-    return _isLoading
-        ? CircularProgressIndicator()
-        : Container(
-            child: Card(
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Row(
-                  children: [
-                    CircleAvatar(
-                      backgroundImage: CachedNetworkImageProvider(
-                          _item.snippet.thumbnails.medium.url),
-                    ),
-                    SizedBox(
-                      width: 20.0,
-                    ),
-                    Expanded(
-                      child: MyCustomText(
-                        text: _item.snippet.title,
-                        color: myColor.primaryColor,
-                        fontFamily: 'Montserrat',
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                    MyCustomText(
-                      text: _item.statistics.videoCount,
-                      color: myColor.primaryColor,
-                      fontFamily: 'Roboto',
-                      fontSize: 14.0,
-                      fontWeight: FontWeight.w800,
-                    ),
-                    SizedBox(
-                      width: 20.0,
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          );
-  }
+  // _buildInfoView() {
+  //   return _isLoading
+  //       ? CircularProgressIndicator()
+  //       : Container(
+  //           child: Card(
+  //             child: Padding(
+  //               padding: const EdgeInsets.all(16.0),
+  //               child: Row(
+  //                 children: [
+  //                   CircleAvatar(
+  //                     backgroundImage: CachedNetworkImageProvider(
+  //                         _item.snippet.thumbnails.medium.url),
+  //                   ),
+  //                   SizedBox(
+  //                     width: 20.0,
+  //                   ),
+  //                   Expanded(
+  //                     child: MyCustomText(
+  //                       text: _item.snippet.title,
+  //                       color: myColor.primaryColor,
+  //                       fontFamily: 'Montserrat',
+  //                       fontSize: 18.0,
+  //                       fontWeight: FontWeight.w800,
+  //                     ),
+  //                   ),
+  //                   MyCustomText(
+  //                     text: _item.statistics.videoCount,
+  //                     color: myColor.primaryColor,
+  //                     fontFamily: 'Roboto',
+  //                     fontSize: 14.0,
+  //                     fontWeight: FontWeight.w800,
+  //                   ),
+  //                   SizedBox(
+  //                     width: 20.0,
+  //                   ),
+  //                 ],
+  //               ),
+  //             ),
+  //           ),
+  //         );
+  // }
 }

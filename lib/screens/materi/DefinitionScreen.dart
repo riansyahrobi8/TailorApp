@@ -12,15 +12,15 @@ class DefinitionScreen extends StatefulWidget {
 }
 
 class _DefinitionScreenState extends State<DefinitionScreen> {
+  Future<dynamic> loadData() async {
+    return jsonDecode(
+        await rootBundle.rootBundle.loadString("assets/data/datamateri.json"));
+  }
+
   @override
   Widget build(BuildContext context) {
     var mediaQuery = MediaQuery.of(context);
     Size size = mediaQuery.size;
-
-    Future<dynamic> loadData() async {
-      return jsonDecode(await rootBundle.rootBundle
-          .loadString("assets/data/datamateri.json"));
-    }
 
     return Scaffold(
         backgroundColor: myColor.backgroundColor,
@@ -80,18 +80,23 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
                   } else {
                     var data = snapshot.data;
                     return GridView.builder(
-                      shrinkWrap: true,
-                      physics: ScrollPhysics(),
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                          childAspectRatio: size.width / (size.height / 1.25)),
-                      itemCount: data.length,
-                      itemBuilder: (context, index) => MyCardCustom(
-                        title: data[index]['title'],
-                        urlImage: data[index]['urlImage'],
-                        image: data[index]['image'],
-                      ),
-                    );
+                        shrinkWrap: true,
+                        physics: ScrollPhysics(),
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 2,
+                            childAspectRatio:
+                                size.width / (size.height / 1.25)),
+                        itemCount: data.length,
+                        itemBuilder: (context, index) {
+                          return MyCardCustom(
+                            id: data[index]['id'],
+                            title: data[index]['title'],
+                            urlImage: data[index]['urlImage'],
+                            image: data[index]['image'],
+                            definitions: data[index]['definitions'],
+                            details: data[index]['detail'],
+                          );
+                        });
                   }
                 },
               )
