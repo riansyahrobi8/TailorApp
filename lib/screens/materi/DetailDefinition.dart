@@ -22,7 +22,6 @@ class DetailDefinition extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(details.length);
     return Scaffold(
       backgroundColor: myColor.backgroundColor,
       appBar: AppBar(
@@ -34,28 +33,61 @@ class DetailDefinition extends StatelessWidget {
             color: myColor.textColorWhite,
             fontWeight: FontWeight.w800),
       ),
-      body: Column(
-        children: [
-          Text(image),
-          Text(urlImage),
-          Text(title),
-          Text(definitions),
-          Container(
-            child: ListView.builder(
-              shrinkWrap: true,
-              itemBuilder: (context, index) {
-                print(details.length);
-                return Column(
-                  children: [
-                    Text(details[index]['name']),
-                    Text(details[index]['images'])
-                  ],
-                );
-              },
-              itemCount: details.length,
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            AspectRatio(
+              aspectRatio: 16 / 9,
+              child: Image.asset(
+                "assets/images/" + urlImage + "/" + image,
+                fit: BoxFit.cover,
+              ),
             ),
-          )
-        ],
+            SizedBox(
+              height: 16.0,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              child: MyCustomText(
+                text: definitions,
+                fontFamily: "Roboto",
+                color: myColor.secondaryColor,
+                fontSize: 14.0,
+              ),
+            ),
+            SizedBox(
+              height: 24.0,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              child: MyCustomText(
+                text: "Variasi" + title,
+                fontFamily: "Montserrat",
+                color: myColor.secondaryColor,
+                fontWeight: FontWeight.w800,
+                fontSize: 16.0,
+              ),
+            ),
+            SizedBox(
+              height: 16.0,
+            ),
+            Container(
+              child: ListView.builder(
+                shrinkWrap: true,
+                itemBuilder: (context, index) {
+                  return Column(
+                    children: [
+                      Text(details[index]['name']),
+                      Text(details[index]['images'])
+                    ],
+                  );
+                },
+                itemCount: details.length,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
