@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
+import 'package:tailorapp/widgets/MyCardCustomDetail.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 
 class DetailDefinition extends StatelessWidget {
@@ -22,6 +23,9 @@ class DetailDefinition extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var mediaQuery = MediaQuery.of(context);
+    Size size = mediaQuery.size;
+
     return Scaffold(
       backgroundColor: myColor.backgroundColor,
       appBar: AppBar(
@@ -62,7 +66,7 @@ class DetailDefinition extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: MyCustomText(
-                text: "Variasi" + title,
+                text: "Variasi " + title,
                 fontFamily: "Montserrat",
                 color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,
@@ -73,19 +77,26 @@ class DetailDefinition extends StatelessWidget {
               height: 16.0,
             ),
             Container(
-              child: ListView.builder(
-                shrinkWrap: true,
-                itemBuilder: (context, index) {
-                  return Column(
-                    children: [
-                      Text(details[index]['name']),
-                      Text(details[index]['images'])
-                    ],
-                  );
-                },
-                itemCount: details.length,
-              ),
-            )
+              margin: const EdgeInsets.symmetric(horizontal: 16.0),
+              child: GridView.builder(
+                  shrinkWrap: true,
+                  physics: ScrollPhysics(),
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      childAspectRatio: size.width / (size.height / 1.25)),
+                  itemCount: details.length,
+                  itemBuilder: (context, index) {
+                    return MyCardCustomDetail(
+                      title: details[index]['name'],
+                      urlImage: urlImage,
+                      image: details[index]['images'],
+                      tag: details[index]['tag'],
+                    );
+                  }),
+            ),
+            SizedBox(
+              height: 16.0,
+            ),
           ],
         ),
       ),

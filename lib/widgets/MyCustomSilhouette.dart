@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tailorapp/routing/const_routing.dart';
 import 'package:tailorapp/screens/DetailImage.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
 import 'package:tailorapp/widgets/MyCustomText.dart';
@@ -44,9 +43,9 @@ class MyCustomSilhouette extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (_) => DetailImage(
-                    tag: silhouette,
-                    urlImage: "$urlImage",
-                    image: "$image",
+                    tag: tag,
+                    urlImage: urlImage,
+                    image: image,
                   ),
                 ))),
         SizedBox(

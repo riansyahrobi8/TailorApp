@@ -8,18 +8,22 @@
         "detail": [
             {
                 "name": "Garis Leher Bulat (Round Neckline)",
+                "tag": "glbulat",
                 "images": "glbulat.jpeg"
             },
             {
                 "name": "Garis Leher Persegi (Square Neckline)",
+                "tag": "glpersegi",
                 "images": "glpersegi.jpeg"
             },
             {
                 "name": "Garis Leher V (V Neckline)",
+                "tag": "glv",
                 "images": "glv.jpeg"
             },
             {
                 "name": "Garis Leher Lain (Other Neckline)",
+                "tag": "gllain",
                 "images": "gllain.jpeg"
             }
         ]
@@ -33,26 +37,32 @@
         "detail": [
             {
                 "name": "Kerah Rebah 1 (First Flat Collar)",
+                "tag": "kerahrebah1",
                 "images": "kerahrebah1.jpeg"
             },
             {
                 "name": "Kerah Rebah 2 (Second Flat Collar)",
+                "tag": "kerahrebah2",
                 "images": "kerahrebah2.jpeg"
             },
             {
                 "name": "Kerah Roll 1 (First Roll Collar)",
+                "tag": "kerahrol1",
                 "images": "kerahrol1.jpeg"
             },
             {
                 "name": "Kerah Roll 2 (Second Roll Collar)",
+                "tag": "kerahrol2",
                 "images": "kerahrol2.jpeg"
             },
             {
                 "name": "Kerah Roll 3 (Third Roll Collar)",
+                "tag": "kerahrol3",
                 "images": "kerahrol3.jpeg"
             },
             {
                 "name": "Kerah Tegak (Stand Collar)",
+                "tag": "kerahtegak",
                 "images": "kerahtegak.jpeg"
             }
         ]
@@ -62,30 +72,36 @@
         "title": "Lengan (Sleeve)",
         "urlImage": "materi/lengan",
         "image": "lenganberdasarkanpanjang.jpeg",
-        "definitions": "Lengan adalah bagian busana yang menutupi lengan. Menurut bentuknya, lengan dapat dibedakan menjadi dua yaitu lengan yang dipasangkan (set in sleeves) dan lengan setali. Lengan yang dipasangkan adalah lengan yang secara konstruksi berdiri sendiri sehingga terdapat jahitan atau sambungan pada kerung lengan. Lengan setali adalah lengan yang menjadi satu dengan badan yang tidak terdapat potongan atau sambungan pada kerung lengan. Berdasarkan panjangnya lengan terdiri dari bagian bagian sebagai berikut: Cap Sleeve, yaitu lengan yang panjangnya sanpai puncak lengan. Short sleeve, yaitu lengan yang panjangnya sampai pertengahan pangkal lengan. Elbow, yaitu lengan yang panjangnya sampai siku. Three Quarter lenght, yaitu lengan yang panjangnya tiga perempat panjang lengan. Wrist, yaitu lengan yang panjangnya samapi mata tangan.",
+        "definitions": "Lengan adalah bagian busana yang menutupi lengan. Menurut bentuknya, lengan dapat dibedakan menjadi dua yaitu lengan yang dipasangkan (set in sleeves) dan lengan setali. Lengan yang dipasangkan adalah lengan yang secara konstruksi berdiri sendiri sehingga terdapat jahitan atau sambungan pada kerung lengan. Lengan setali adalah lengan yang menjadi satu dengan badan yang tidak terdapat potongan atau sambungan pada kerung lengan. Berdasarkan panjangnya lengan terdiri dari bagian bagian sebagai berikut: Cap Sleeve, yaitu lengan yang panjangnya sanpai puncak lengan. Short sleeve, yaitu lengan yang panjangnya sampai pertengahan pangkal lengan. Elbow, yaitu lengan yang panjangnya sampai siku. Three Quarter lenght, yaitu lengan yang panjangnya tiga perempat panjang lengan. Wrist, yaitu lengan yang panjangnya samapi mata tangan.",
         "detail": [
             {
                 "name": "Lengan Dipasangkan 1",
+                "tag": "lengandipasangkan1",
                 "images": "lengandipasangkan1.jpeg"
             },
             {
                 "name": "Lengan Dipasangkan 2",
+                "tag": "lengandipasangkan2",
                 "images": "lengandipasangkan2.jpeg"
             },
             {
                 "name": "Lengan Dipasangkan 3",
+                "tag": "lengandipasangkan3",
                 "images": "lengandipasangkan3.jpeg"
             },
             {
                 "name": "Lengan Dipasangkan 4",
+                "tag": "lengandipasangkan4",
                 "images": "lengandipasangkan4.jpeg"
             },
             {
                 "name": "Lengan Setali 1",
+                "tag": "lengansetali1",
                 "images": "lengansetali1.jpeg"
             },
             {
                 "name": "Lengan Setali 2",
+                "tag": "lengansetali2",
                 "images": "lengansetali2.jpeg"
             }
         ]
@@ -99,18 +115,22 @@
         "detail": [
             {
                 "name": "Blus 1 (First Blouse)",
+                "tag": "blus1",
                 "images": "blus1.jpeg"
             },
             {
                 "name": "Blus 2 (Second Blouse)",
+                "tag": "blus2",
                 "images": "blus2.jpeg"
             },
             {
                 "name": "Blus 3 (Third Blouse)",
+                "tag": "blus3",
                 "images": "blus3.jpeg"
             },
             {
                 "name": "Blus 4 (Fourth Blouse)",
+                "tag": "blus4",
                 "images": "blus4.jpeg"
             }
         ]
@@ -124,22 +144,27 @@
         "detail": [
             {
                 "name": "Rok 1 (First Skirt)",
+                "tag": "rok1",
                 "images": "rok1.jpeg"
             },
             {
                 "name": "Rok 2 (Second Skirt)",
+                "tag": "rok2",
                 "images": "rok2.jpeg"
             },
             {
                 "name": "Rok 3 (Third Skirt)",
+                "tag": "rok3",
                 "images": "rok3.jpeg"
             },
             {
                 "name": "Rok 4 (Fourth Skirt)",
+                "tag": "rok4",
                 "images": "rok4.jpeg"
             },
             {
                 "name": "Rok 5 (Fifth Skirt)",
+                "tag": "rok5",
                 "images": "rok5.jpeg"
             }
         ]
@@ -153,14 +178,17 @@
         "detail": [
             {
                 "name": "Celana 1 (First Pant)",
+                "tag": "celana1",
                 "images": "celana1.jpeg"
             },
             {
                 "name": "Celana 2 (Second Pant)",
+                "tag": "celana2",
                 "images": "celana2.jpeg"
             },
             {
                 "name": "Celana 3 (Third Pant)",
+                "tag": "celana3",
                 "images": "celana3.jpeg"
             }
         ]
@@ -174,14 +202,17 @@
         "detail": [
             {
                 "name": "Manset 1 (First Cuff)",
+                "tag": "manset1",
                 "images": "manset1.jpeg"
             },
             {
                 "name": "Manset 2 (Second Cuff)",
+                "tag": "manset2",
                 "images": "manset2.jpeg"
             },
             {
                 "name": "Manset 3 (Third Cuff)",
+                "tag": "manset3",
                 "images": "manset3.jpeg"
             }
         ]
@@ -195,22 +226,27 @@
         "detail": [
             {
                 "name": "Saku Dalam 1 (First Set-In Pocket)",
+                "tag": "sakudlm1",
                 "images": "sakudlm1.jpeg"
             },
             {
                 "name": "Saku Dalam 2 (Second Set-In Pocket)",
+                "tag": "sakudlm2",
                 "images": "sakudlm2.jpeg"
             },
             {
                 "name": "Saku Dalam 3 (Third Set-In Pocket)",
+                "tag": "sakudlm3",
                 "images": "sakudlm3.jpeg"
             },
             {
                 "name": "Saku Tempel 1 (First Set-On Pocket)",
+                "tag": "sakutempel1",
                 "images": "sakutempel1.jpeg"
             },
             {
                 "name": "Saku Tempel 2 (Second Set-On Pocket)",
+                "tag": "sakutempel2",
                 "images": "sakutempel2.jpeg"
             }
         ]
@@ -224,14 +260,17 @@
         "detail": [
             {
                 "name": "Belahan 1 (First Opening)",
+                "tag": "belahan1",
                 "images": "belahan1.jpeg"
             },
             {
                 "name": "Belahan 2 (Second Opening)",
+                "tag": "belahan2",
                 "images": "belahan2.jpeg"
             },
             {
                 "name": "Belahan 3 (Third Opening)",
+                "tag": "belahan3",
                 "images": "belahan3.jpeg"
             }
         ]
