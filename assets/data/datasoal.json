@@ -1,682 +1,210 @@
 [
     {
-        "no": 1,
-        "question": "Busana yang kita kenakan sehari hari selalu dilengkapi dengan bagian bagian busana. Dibawah ini yang bukan termasuk bagian bagian busana adalah ...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Rok",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Celana",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Blus",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Lengan",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Gaun",
-                "value": 5
-            }
-        ]
+        "1": "A",
+        "2": "B",
+        "3": "A",
+        "4": "A",
+        "5": "A",
+        "6": "B",
+        "7": "A",
+        "8": "C",
+        "9": "A",
+        "10": "A",
+        "11": "A",
+        "12": "B",
+        "13": "B",
+        "14": "A",
+        "15": "C",
+        "16": "C",
+        "17": "B",
+        "18": "A",
+        "19": "A",
+        "20": "A"
     },
     {
-        "no": 2,
-        "question": "Rancangan di bawah ini termasuk dalam kategori...",
-        "type": "B",
-        "urlImage": "assets/images/soal/",
-        "image": "soal2.png",
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Cuff",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Sleeve",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Collar",
-                "value": 5
-            },
-            {
-                "char": "D",
-                "selections": "Colour",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Closing",
-                "value": 0
-            }
-        ]
+        "1": "Busana yang kita kenakan sehari hari selalu dilengkapi dengan bagian bagian busana. Dibawah ini yang bukan termasuk bagian bagian busana adalah ...",
+        "2": "Rancangan di bawah ini termasuk dalam kategori...",
+        "3": "Tambahan potongan kain yang digunakan untuk menyelesaikan garis leher disebut...",
+        "4": "Bagian busana yang dikenakan pada tubuh bagian bawah, dimulai dari bagian pinggang sampai panjang kebawah dengan menggunakan satu lubang disebut...",
+        "5": "Celana merupakan busana yang dikenakan pada tubuh bagian bawah. Yang termasuk celana berdasarkan panjangnya, kecuali...",
+        "6": "Rancangan dibawah ini termasuk dalam kategori...",
+        "7": "Berdasarkan bentuk dasarnya, garis leher dibedakan menjadi tiga macam. Yang termasuk bentuk dasar garis leher yaitu...",
+        "8": "Rancangan dibawah ini yang bukan termasuk dalam kerah rebah yaitu...",
+        "9": "Rok yang panjangnya sampai diatas mata kaki disebut...",
+        "10": "Berdasarkan bentuk akhir garis luar yang dipergunakan, siluet dapat dibedakan atas beberapa jenis yang diistilahkan dalam huruf sebagai berikut, kecuali...",
+        "11": "Siluet busana yang didesain pada bagian atas besar, kecil pada bagian pinggang dan besar pada bagian bawah (rok) disebut siluet...",
+        "12": "Rancangan dibawah ini termasuk dalam siluet...",
+        "13": "Rancangan dibawah ini termasuk dalam kategori bagian busana berupa...",
+        "14": "Berdasarkan panjangnya lengan terdiri bari beberapa bagian salah satunya elbow. Elbow yaitu lengan yang memiliki panjang sampai...",
+        "15": "Rancangan dibawah ini termasuk dalam kategori bagian busana berupa...",
+        "16": "Rancangan saku di bawah ini yang bukan termasuk saku tempel adalah...",
+        "17": "Rancangan dibawah ini termasuk variasi kerah tegak yang memiliki nama...",
+        "18": "Celana yang panjangnya sampai pertengahan paha disebut...",
+        "19": "Berikut yang bukan termasuk lengan yang dipasangkan (set in sleeves) yaitu...",
+        "20": "Siluet busana yang didesain kecil pada garis leher, besar pada lengan dan kecil pada bagan bawah (rok) disebut dengan siluet..."
     },
     {
-        "no": 3,
-        "question": "Tambahan potongan kain yang digunakan untuk menyelesaikan garis leher disebut...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Kerah",
-                "value": 5
-            },
-            {
-                "char": "B",
-                "selections": "Kelim",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Garis Leher",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Manset",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Lengan",
-                "value": 0
-            }
-        ]
+        "1": {
+            "A": "Rok",
+            "B": "Celana",
+            "C": "Blus",
+            "D": "Lengan",
+            "E": "Gaun"
+        },
+        "2": {
+            "A": "Cuff",
+            "B": "Sleeve",
+            "C": "Collar",
+            "D": "Colour",
+            "E": "Closing"
+        },
+        "3": {
+            "A": "Kerah",
+            "B": "Kelim",
+            "C": "Garis Leher",
+            "D": "Manset",
+            "E": "Lengan"
+        },
+        "4": {
+            "A": "Celana",
+            "B": "Rok",
+            "C": "Mini",
+            "D": "Midi",
+            "E": "Gaun"
+        },
+        "5": {
+            "A": "Short",
+            "B": "Jamaica",
+            "C": "Bermuda",
+            "D": "Pedal",
+            "E": "Gaun"
+        },
+        "6": {
+            "A": "Shirt",
+            "B": "Suit",
+            "C": "Coat",
+            "D": "Blouse",
+            "E": "Dress"
+        },
+        "7": {
+            "A": "T",
+            "B": "V",
+            "C": "I",
+            "D": "H",
+            "E": "X"
+        },
+        "8": {
+            "A": "assets/images/soal/soal8/img1.png",
+            "B": "assets/images/soal/soal8/img2.png",
+            "C": "assets/images/soal/soal8/img3.png",
+            "D": "assets/images/soal/soal8/img4.png",
+            "E": "assets/images/soal/soal8/img5.png"
+        },
+        "9": {
+            "A": "Maxi",
+            "B": "Ankle",
+            "C": "Floor",
+            "D": "Knee",
+            "E": "Midi"
+        },
+        "10": {
+            "A": "A",
+            "B": "I",
+            "C": "C",
+            "D": "S",
+            "E": "L"
+        },
+        "11": {
+            "A": "A",
+            "B": "I",
+            "C": "C",
+            "D": "S",
+            "E": "L"
+        },
+        "12": {
+            "A": "A",
+            "B": "I",
+            "C": "H",
+            "D": "J",
+            "E": "L"
+        },
+        "13": {
+            "A": "Cuff",
+            "B": "Sleeve",
+            "C": "Collar",
+            "D": "Pocket",
+            "E": "Opening"
+        },
+        "14": {
+            "A": "Puncak Lengan",
+            "B": "Pangkal Lengan",
+            "C": "Siku",
+            "D": "Mata Tangan",
+            "E": "Ujung Jari"
+        },
+        "15": {
+            "A": "assets/images/soal/soal15/img1.png",
+            "B": "assets/images/soal/soal15/img2.png",
+            "C": "assets/images/soal/soal15/img3.png",
+            "D": "assets/images/soal/soal15/img4.png",
+            "E": "assets/images/soal/soal15/img5.png"
+        },
+        "16": {
+            "A": "assets/images/soal/soal16/img1.png",
+            "B": "assets/images/soal/soal16/img2.png",
+            "C": "assets/images/soal/soal16/img3.png",
+            "D": "assets/images/soal/soal16/img4.png",
+            "E": "assets/images/soal/soal16/img5.png"
+        },
+        "17": {
+            "A": "Chinese Collar",
+            "B": "Clerical Collar",
+            "C": "Chin Collar",
+            "D": "Standaway Collar",
+            "E": "Officer Collar"
+        },
+        "18": {
+            "A": "Short",
+            "B": "Bermuda",
+            "C": "Jamaica",
+            "D": "Pedal",
+            "E": "Capri"
+        },
+        "19": {
+            "A": "Mandarin Sleeve",
+            "B": "Tulip Sleeve",
+            "C": "Batwing Sleeve",
+            "D": "Bell Sleeve",
+            "E": "Flared Sleeve"
+        },
+        "20": {
+            "A": "Y",
+            "B": "T",
+            "C": "I",
+            "D": "H",
+            "E": "S"
+        }
     },
     {
-        "no": 4,
-        "question": "Bagian busana yang dikenakan pada tubuh bagian bawah, dimulai dari bagian pinggang sampai panjang kebawah dengan menggunakan satu lubang disebut...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Celana",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Rok",
-                "value": 5
-            },
-            {
-                "char": "C",
-                "selections": "Mini",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Midi",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Gaun",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 5,
-        "question": "Celana merupakan busana yang dikenakan pada tubuh bagian bawah. Yang termasuk celana berdasarkan panjangnya, kecuali...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Short",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Jamaica",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Bermuda",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Pedal",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Gaun",
-                "value": 5
-            }
-        ]
-    },
-    {
-        "no": 6,
-        "question": "Rancangan dibawah ini termasuk dalam kategori...",
-        "type": "B",
-        "urlImage": "assets/images/soal/",
-        "image": "soal6.png",
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Shirt",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Suit",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Coat",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Blouse",
-                "value": 5
-            },
-            {
-                "char": "E",
-                "selections": "Dress",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 7,
-        "question": "Berdasarkan bentuk dasarnya, garis leher dibedakan menjadi tiga macam. Yang termasuk bentuk dasar garis leher yaitu...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "T",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "V",
-                "value": 5
-            },
-            {
-                "char": "C",
-                "selections": "I",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "H",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "X",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 8,
-        "question": "Rancangan dibawah ini yang bukan termasuk dalam kerah rebah yaitu...",
-        "type": "C",
-        "urlImage": "assets/images/soal/soal8/",
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "img1.png",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "img2.png",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "img3.png",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "img4.png",
-                "value": 5
-            },
-            {
-                "char": "E",
-                "selections": "img5.png",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 9,
-        "question": "Rok yang panjangnya sampai diatas mata kaki disebut...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Maxi",
-                "value": 5
-            },
-            {
-                "char": "B",
-                "selections": "Ankle",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Floor",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Knee",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Midi",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 10,
-        "question": "Berdasarkan bentuk akhir garis luar yang dipergunakan, siluet dapat dibedakan atas beberapa jenis yang diistilahkan dalam huruf sebagai berikut, kecuali...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "A",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "I",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "C",
-                "value": 5
-            },
-            {
-                "char": "D",
-                "selections": "S",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "L",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 11,
-        "question": "Siluet busana yang didesain pada bagian atas besar, kecil pada bagian pinggang dan besar pada bagian bawah (rok) disebut siluet...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "A",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "I",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "C",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "S",
-                "value": 5
-            },
-            {
-                "char": "E",
-                "selections": "L",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 12,
-        "question": "Rancangan dibawah ini termasuk dalam siluet...",
-        "type": "B",
-        "urlImage": "assets/images/soal/",
-        "image": "soal12.png",
-        "selections": [
-            {
-                "char": "A",
-                "selections": "A",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "I",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "H",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "J",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "L",
-                "value": 5
-            }
-        ]
-    },
-    {
-        "no": 13,
-        "question": "Rancangan dibawah ini termasuk dalam kategori bagian busana berupa...",
-        "type": "B",
-        "urlImage": "assets/images/soal/",
-        "image": "soal13.png",
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Cuff",
-                "value": 5
-            },
-            {
-                "char": "B",
-                "selections": "Sleeve",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Collar",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Pocket",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Opening",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 14,
-        "question": "Berdasarkan panjangnya lengan terdiri bari beberapa bagian salah satunya elbow. Elbow yaitu lengan yang memiliki panjang sampai...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Puncak Lengan",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Pangkal Lengan",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Siku",
-                "value": 5
-            },
-            {
-                "char": "D",
-                "selections": "Mata Tangan",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Ujung Jari",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 15,
-        "question": "Rancangan dibawah ini termasuk dalam kategori bagian busana berupa...",
-        "type": "C",
-        "urlImage": "assets/images/soal/soal15/",
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "img1.png",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "img2.png",
-                "value": 5
-            },
-            {
-                "char": "C",
-                "selections": "img3.png",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "img4.png",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "img5.png",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 16,
-        "question": "Rancangan saku di bawah ini yang bukan termasuk saku tempel adalah...",
-        "type": "C",
-        "urlImage": "assets/images/soal/soal16/",
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "img1.png",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "img2.png",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "img3.png",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "img4.png",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "img5.png",
-                "value": 5
-            }
-        ]
-    },
-    {
-        "no": 17,
-        "question": "Rancangan dibawah ini termasuk variasi kerah tegak yang memiliki nama...",
-        "type": "B",
-        "urlImage": "assets/images/soal/",
-        "image": "soal17.png",
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Chinese Collar",
-                "value": 5
-            },
-            {
-                "char": "B",
-                "selections": "Clerical Collar",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Chin Collar",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "Standaway Collar",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Officer Collar",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 18,
-        "question": "Celana yang panjangnya sampai pertengahan paha disebut...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Short",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Bermuda",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Jamaica",
-                "value": 5
-            },
-            {
-                "char": "D",
-                "selections": "Pedal",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Capri",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 19,
-        "question": "Berikut yang bukan termasuk lengan yang dipasangkan (set in sleeves) yaitu...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Mandarin Sleeve",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "Tulip Sleeve",
-                "value": 0
-            },
-            {
-                "char": "C",
-                "selections": "Batwing Sleeve",
-                "value": 5
-            },
-            {
-                "char": "D",
-                "selections": "Bell Sleeve",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "Flared Sleeve",
-                "value": 0
-            }
-        ]
-    },
-    {
-        "no": 20,
-        "question": "Siluet busana yang didesain kecil pada garis leher, besar pada lengan dan kecil pada bagan bawah (rok) disebut dengan siluet...",
-        "type": "A",
-        "urlImage": null,
-        "image": null,
-        "selections": [
-            {
-                "char": "A",
-                "selections": "Y",
-                "value": 0
-            },
-            {
-                "char": "B",
-                "selections": "T",
-                "value": 5
-            },
-            {
-                "char": "C",
-                "selections": "I",
-                "value": 0
-            },
-            {
-                "char": "D",
-                "selections": "H",
-                "value": 0
-            },
-            {
-                "char": "E",
-                "selections": "S",
-                "value": 0
-            }
-        ]
+        "1": "Gaun",
+        "2": "Collar",
+        "3": "Kerah",
+        "4": "Rok",
+        "5": "Gaun",
+        "6": "Blouse",
+        "7": "V",
+        "8": "assets/images/soal/soal8/img4.png",
+        "9": "Maxi",
+        "10": "C",
+        "11": "S",
+        "12": "L",
+        "13": "Cuff",
+        "14": "Siku",
+        "15": "assets/images/soal/soal15/img2.png",
+        "16": "assets/images/soal/soal16/img5.png",
+        "17": "Chinese Collar",
+        "18": "Jamaica",
+        "19": "Batwing Sleeve",
+        "20": "T"
     }
 ]

@@ -1,9 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:tailorapp/routing/const_routing.dart';
+import 'package:tailorapp/screens/evaluasi/quizpage.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
+import 'package:shared_preferences/shared_preferences.dart';
 
-class Evaluasi extends StatelessWidget {
+class Evaluasi extends StatefulWidget {
+  @override
+  _EvaluasiState createState() => _EvaluasiState();
+}
+
+class _EvaluasiState extends State<Evaluasi> {
+  TextEditingController nameController = new TextEditingController();
+  String username = '';
+
+  void addStringToSF(String name) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setString('username', nameController.text);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,193 +31,44 @@ class Evaluasi extends StatelessWidget {
               color: Colors.white,
               fontWeight: FontWeight.w800),
         ),
-        body: Stack(
-          children: [
-            Padding(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-              child: ListView(
-                children: [
-                  Card(
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                child: MyCustomText(
+                    text:
+                        "Test Pemahaman Mu Mengenai Busana dengan Mengerjakan Soal-Soal Berikut",
+                    fontSize: 16.0,
+                    fontFamily: "Montserrat",
                     color: myColor.primaryColor,
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 16.0, vertical: 24.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          CircleAvatar(
-                            backgroundColor: myColor.textColorWhite,
-                            child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: MyCustomText(
-                                  text: "A",
-                                  color: myColor.primaryColor,
-                                  fontSize: 18.0,
-                                  fontFamily: "Montserrat",
-                                  fontWeight: FontWeight.w800,
-                                )),
-                          ),
-                          SizedBox(
-                            width: 24.0,
-                          ),
-                          Expanded(
-                            child: MyCustomText(
-                                text:
-                                    "Jumlah soal 20 dengan masing masing nomor memiliki skor 5, maka jika benar semua skor akhir 100. Kriteria dinyatakan lulus apabila mampu menjawab 15 soal atau skor 75.",
-                                color: myColor.textColorWhite,
-                                fontFamily: "Montserrat",
-                                fontSize: 18.0,
-                                fontWeight: FontWeight.w800),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  Card(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 16.0, vertical: 24.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          CircleAvatar(
-                            backgroundColor: myColor.primaryColor,
-                            child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: MyCustomText(
-                                  text: "B",
-                                  color: myColor.textColorWhite,
-                                  fontSize: 18.0,
-                                  fontFamily: "Montserrat",
-                                  fontWeight: FontWeight.w800,
-                                )),
-                          ),
-                          SizedBox(
-                            width: 24.0,
-                          ),
-                          Expanded(
-                            child: MyCustomText(
-                                text:
-                                    "Jumlah soal 20 dengan masing masing nomor memiliki skor 5, maka jika benar semua skor akhir 100.",
-                                color: myColor.primaryColor,
-                                fontFamily: "Montserrat",
-                                fontSize: 18.0,
-                                fontWeight: FontWeight.w800),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  Card(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 16.0, vertical: 24.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          CircleAvatar(
-                            backgroundColor: myColor.primaryColor,
-                            child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: MyCustomText(
-                                  text: "C",
-                                  color: myColor.textColorWhite,
-                                  fontSize: 18.0,
-                                  fontFamily: "Montserrat",
-                                  fontWeight: FontWeight.w800,
-                                )),
-                          ),
-                          SizedBox(
-                            width: 24.0,
-                          ),
-                          Expanded(
-                            child: MyCustomText(
-                                text:
-                                    "Jumlah soal 20 dengan masing masing nomor memiliki skor 5, maka jika benar semua skor akhir 100.",
-                                color: myColor.primaryColor,
-                                fontFamily: "Montserrat",
-                                fontSize: 18.0,
-                                fontWeight: FontWeight.w800),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  Card(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 16.0, vertical: 24.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          CircleAvatar(
-                            backgroundColor: myColor.primaryColor,
-                            child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: MyCustomText(
-                                  text: "D",
-                                  color: myColor.textColorWhite,
-                                  fontSize: 18.0,
-                                  fontFamily: "Montserrat",
-                                  fontWeight: FontWeight.w800,
-                                )),
-                          ),
-                          SizedBox(
-                            width: 24.0,
-                          ),
-                          Expanded(
-                            child: MyCustomText(
-                                text:
-                                    "Jumlah soal 20 dengan masing masing nomor memiliki skor 5, maka jika benar semua skor akhir 100.",
-                                color: myColor.primaryColor,
-                                fontFamily: "Montserrat",
-                                fontSize: 18.0,
-                                fontWeight: FontWeight.w800),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  SizedBox(
-                    height: 96.0,
-                  )
-                ],
+                    textAlign: TextAlign.center,
+                    fontWeight: FontWeight.w800),
               ),
-            ),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Container(
-                width: double.infinity,
-                decoration: BoxDecoration(color: Colors.white, boxShadow: [
-                  BoxShadow(
-                      color: Colors.grey,
-                      blurRadius: 8,
-                      offset: Offset(0, -2.0))
-                ]),
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: ButtonTheme(
-                    height: 44.0,
-                    minWidth: 160.0,
-                    child: RaisedButton(
-                      onPressed: () {
-                        return Navigator.pushNamed(context, startdraw);
-                      },
-                      color: myColor.primaryColor,
-                      child: MyCustomText(
-                          text: "Selanjutnya",
-                          fontSize: 18.0,
-                          fontFamily: "Montserrat",
-                          color: myColor.textColorWhite),
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(8.0)),
-                    ),
-                  ),
+              SizedBox(
+                height: 56.0,
+              ),
+              ButtonTheme(
+                height: 44.0,
+                minWidth: 160.0,
+                child: RaisedButton(
+                  onPressed: () {
+                    return Navigator.pushReplacement(context,
+                        MaterialPageRoute(builder: (context) => GetDataSoal()));
+                  },
+                  color: myColor.primaryColor,
+                  child: MyCustomText(
+                      text: "Mulai",
+                      fontSize: 22.0,
+                      fontFamily: "Montserrat",
+                      color: myColor.textColorWhite),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8.0)),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ));
   }
 }
