@@ -43,6 +43,7 @@ class Referensi extends StatelessWidget {
                   color: myColor.secondaryColor,
                   fontFamily: "Roboto",
                   fontSize: 14.0,
+                  textAlign: TextAlign.justify,
                 ),
                 SizedBox(
                   height: 8.0,
@@ -53,6 +54,7 @@ class Referensi extends StatelessWidget {
                   color: myColor.secondaryColor,
                   fontFamily: "Roboto",
                   fontSize: 14.0,
+                  textAlign: TextAlign.justify,
                 ),
                 SizedBox(
                   height: 8.0,
@@ -63,6 +65,7 @@ class Referensi extends StatelessWidget {
                   color: myColor.secondaryColor,
                   fontFamily: "Roboto",
                   fontSize: 14.0,
+                  textAlign: TextAlign.justify,
                 ),
                 SizedBox(
                   height: 8.0,
@@ -73,6 +76,7 @@ class Referensi extends StatelessWidget {
                   color: myColor.secondaryColor,
                   fontFamily: "Roboto",
                   fontSize: 14.0,
+                  textAlign: TextAlign.justify,
                 ),
                 SizedBox(
                   height: 8.0,
@@ -83,6 +87,7 @@ class Referensi extends StatelessWidget {
                   color: myColor.secondaryColor,
                   fontFamily: "Roboto",
                   fontSize: 14.0,
+                  textAlign: TextAlign.justify,
                 ),
                 SizedBox(
                   height: 8.0,
@@ -93,6 +98,7 @@ class Referensi extends StatelessWidget {
                   color: myColor.secondaryColor,
                   fontFamily: "Roboto",
                   fontSize: 14.0,
+                  textAlign: TextAlign.justify,
                 ),
               ],
             ),

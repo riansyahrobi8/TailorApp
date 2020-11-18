@@ -58,6 +58,7 @@ class DetailDefinition extends StatelessWidget {
                 fontFamily: "Roboto",
                 color: myColor.secondaryColor,
                 fontSize: 14.0,
+                textAlign: TextAlign.justify,
               ),
             ),
             SizedBox(

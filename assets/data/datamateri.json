@@ -3,8 +3,8 @@
         "id": 1,
         "title": "Garis Leher (Neckline)",
         "urlImage": "materi/garisleher",
-        "image": "bentukdasargarisleher.jpeg",
-        "definitions": "Garis leher merupakan bentuk pakaian yang terletak paling atas disekitar leher atau biasa disebut sebagai tanda garis leher. Bentuk  garis  leher  banyak  variasinya,  neckline namun bentuk dasar garis leher dikelompokkan menjadi 3 yaitu garis leher bulat (round neckline), garis leher persegi (square neckline), garis leher V ( V).",
+        "image": "garisleher.jpeg",
+        "definitions": "\t Garis leher merupakan bentuk pakaian yang terletak paling atas disekitar leher atau biasa disebut sebagai tanda garis leher. \n \t Bentuk  garis  leher  banyak  variasinya,  neckline namun bentuk dasar garis leher dikelompokkan menjadi 3 yaitu: \n 1. Garis leher bulat (round neckline). \n 2. Garis leher persegi (square neckline). \n 3. Garis leher V ( V).",
         "detail": [
             {
                 "name": "Garis Leher Bulat (Round Neckline)",
@@ -20,11 +20,6 @@
                 "name": "Garis Leher V (V Neckline)",
                 "tag": "glv",
                 "images": "glv.jpeg"
-            },
-            {
-                "name": "Garis Leher Lain (Other Neckline)",
-                "tag": "gllain",
-                "images": "gllain.jpeg"
             }
         ]
     },
@@ -32,8 +27,8 @@
         "id": 2,
         "title": "Kerah (Collar)",
         "urlImage": "materi/kerah",
-        "image": "bentukdasarkerah.jpeg",
-        "definitions": "Kerah adalah tambahan potongan kain yang digunakan untuk menyelesaikan garis leher. Bentuk dasar kerah terdiri dari kerah rebah (flat collar), kerah rol (roll collar), dan kerah tegak (stand collar).",
+        "image": "kerah.jpeg",
+        "definitions": "\t Kerah adalah tambahan potongan kain yang digunakan untuk menyelesaikan garis leher. \n \t Bentuk dasar kerah terdiri dari: \n 1. Kerah rebah (flat collar). \n 2. Kerah rol (roll collar). \n 3. Kerah tegak (stand collar).",
         "detail": [
             {
                 "name": "Kerah Rebah 1 (First Flat Collar)",
@@ -71,8 +66,8 @@
         "id": 3,
         "title": "Lengan (Sleeve)",
         "urlImage": "materi/lengan",
-        "image": "lenganberdasarkanpanjang.jpeg",
-        "definitions": "Lengan adalah bagian busana yang menutupi lengan. Menurut bentuknya, lengan dapat dibedakan menjadi dua yaitu lengan yang dipasangkan (set in sleeves) dan lengan setali. Lengan yang dipasangkan adalah lengan yang secara konstruksi berdiri sendiri sehingga terdapat jahitan atau sambungan pada kerung lengan. Lengan setali adalah lengan yang menjadi satu dengan badan yang tidak terdapat potongan atau sambungan pada kerung lengan. Berdasarkan panjangnya lengan terdiri dari bagian bagian sebagai berikut: Cap Sleeve, yaitu lengan yang panjangnya sanpai puncak lengan. Short sleeve, yaitu lengan yang panjangnya sampai pertengahan pangkal lengan. Elbow, yaitu lengan yang panjangnya sampai siku. Three Quarter lenght, yaitu lengan yang panjangnya tiga perempat panjang lengan. Wrist, yaitu lengan yang panjangnya samapi mata tangan.",
+        "image": "lengan.jpeg",
+        "definitions": "\t Lengan adalah bagian busana yang menutupi lengan. \n \t Menurut bentuknya, lengan dapat dibedakan menjadi dua yaitu: \n 1. Lengan yang dipasangkan (set in sleeves) \n \t Lengan yang dipasangkan adalah lengan yang secara konstruksi berdiri sendiri sehingga terdapat jahitan atau sambungan pada kerung lengan. \n 2. Lengan setali. \n \t Lengan setali adalah lengan yang menjadi satu dengan badan yang tidak terdapat potongan atau sambungan pada kerung lengan. \n \t Berdasarkan panjangnya lengan terdiri dari bagian bagian sebagai berikut: \n 1. Cap Sleeve, yaitu lengan yang panjangnya sanpai puncak lengan. \n 2. Short sleeve, yaitu lengan yang panjangnya sampai pertengahan pangkal lengan. \n 3. Elbow, yaitu lengan yang panjangnya sampai siku. \n 4. Three Quarter lenght, yaitu lengan yang panjangnya tiga perempat panjang lengan. \n 5. Wrist, yaitu lengan yang panjangnya samapi mata tangan.",
         "detail": [
             {
                 "name": "Lengan Dipasangkan 1",
@@ -139,8 +134,8 @@
         "id": 5,
         "title": "Rok (Skirt)",
         "urlImage": "materi/rok",
-        "image": "rokberdasarkanpanjangnya.jpeg",
-        "definitions": "Rok adalah bagian busana yang dikenakan pada tubuh bagian bawah, dimulai dari bagian pinggang sampai panjang kebawah sesuai yang diinginkan dengan menggunakan satu lubang. Berdasarkan desain, rok dikelompokkan atas rok suai/lurus (straight), rok kerut (gathered), rok lipit (pleated), rok lingkaran atau setengah lingkaran (flared), rok pias (seam) dan rok draperi. Selain model-model yang disebutkan di atas masih ada model rok lain yang merupakan kombinasi model-model di atas yang ditambahkan detail-detailnya. Berdasarkan panjangnya, rok dikelompokkan atas: Micro, yaitu rok yang hanya cukup menutupi panggul. Mini, yaitu rok yang panjangnya sampai pertengahan paha. Knee, yaitu rok yang panjangnya sampai lutut. Midi, yaitu rok yang panjangnya sampai pertengahan betis. Maxi, yaitu rok yang panjangnya sampai diatas mata kaki. Ankle, yaitu rok yang panjangnya sampai mata kaki. Floor (longdress) yaitu rok yang panjangnya sampai menyetuh lantai.",
+        "image": "rok.jpeg",
+        "definitions": "\t Rok adalah bagian busana yang dikenakan pada tubuh bagian bawah, dimulai dari bagian pinggang sampai panjang kebawah sesuai yang diinginkan dengan menggunakan satu lubang. \n \t Berdasarkan desain, rok dikelompokkan atas rok suai/lurus (straight), rok kerut (gathered), rok lipit (pleated), rok lingkaran atau setengah lingkaran (flared), rok pias (seam) dan rok draperi. Selain model-model yang disebutkan di atas masih ada model rok lain yang merupakan kombinasi model-model di atas yang ditambahkan detail-detailnya. \n \t Berdasarkan panjangnya, rok dikelompokkan atas: \n 1. Micro, yaitu rok yang hanya cukup menutupi panggul. \n 2. Mini, yaitu rok yang panjangnya sampai pertengahan paha. \n 3. Knee, yaitu rok yang panjangnya sampai lutut. \n 4. Midi, yaitu rok yang panjangnya sampai pertengahan betis. \n 5. Maxi, yaitu rok yang panjangnya sampai diatas mata kaki. \n 6. Ankle, yaitu rok yang panjangnya sampai mata kaki. \n 7. Floor (longdress) yaitu rok yang panjangnya sampai menyetuh lantai.",
         "detail": [
             {
                 "name": "Rok 1 (First Skirt)",
@@ -173,8 +168,8 @@
         "id": 6,
         "title": "Celana (Pant)",
         "urlImage": "materi/celana",
-        "image": "celanaberdasarkanpanjang.jpeg",
-        "definitions": "Celana merupakan busana yang digunakan pada tubuh bagian bawah dimulai dari pinggang dengan menggunakan dua lubang (pipa). Berdasarkan panjangnya, celana terdiri dari: Short, yaitu celana yang panjangnya cukup menutupi panggul. Jamaica, yaitu celana yang panjangnya pertengahan paha. Bermuda, yaitu celana yang panjangnya sampai di atas lutut. dedal, yaitu celana yang panjangnya sampai bawah lutut. Capri, yaitu celana yang panjangnya sampai diatas mata kaki. Full length, yaitu celana yang panjangnya sampai mata kaki.",
+        "image": "celana.jpeg",
+        "definitions": "\t Celana merupakan busana yang digunakan pada tubuh bagian bawah dimulai dari pinggang dengan menggunakan dua lubang (pipa). \n \t Berdasarkan panjangnya, celana terdiri dari: \n 1. Short, yaitu celana yang panjangnya cukup menutupi panggul. \n 2. Jamaica, yaitu celana yang panjangnya pertengahan paha. \n 3. Bermuda, yaitu celana yang panjangnya sampai di atas lutut. \n 4. Dedal, yaitu celana yang panjangnya sampai bawah lutut. \n 5. Capri, yaitu celana yang panjangnya sampai diatas mata kaki. \n 6. Full length, yaitu celana yang panjangnya sampai mata kaki.",
         "detail": [
             {
                 "name": "Celana 1 (First Pant)",
@@ -197,8 +192,8 @@
         "id": 7,
         "title": "Manset (Cuff)",
         "urlImage": "materi/manset",
-        "image": "manset1.jpeg",
-        "definitions": "Manset merupakan penyelesaian akhir dari ujung lengan dengan menggunakan bahan atau kain.",
+        "image": "manset.jpeg",
+        "definitions": "\t Manset merupakan penyelesaian akhir dari ujung lengan dengan menggunakan bahan atau kain.",
         "detail": [
             {
                 "name": "Manset 1 (First Cuff)",
@@ -221,8 +216,8 @@
         "id": 8,
         "title": "Saku (Pocket)",
         "urlImage": "materi/saku",
-        "image": "sakudlm1.jpeg",
-        "definitions": "Saku biasanya disebut sebagai kantong kecil rata yang dijahitkan pada busana dan digunakan untuk menyimpang. Saku terdiri dari saku tempel dan saku dalam. Saku tempel (set on pocket/ out pocket) yaitu saku yang kantongnya menempel diatas permukaan kain atau busana sedangkan saku dalam (set in pocket) yaitu saku yang kantongnya berada didalam busana dan hanya lubang sakunya saja yang terlihat dipermukaan.",
+        "image": "saku.jpeg",
+        "definitions": "\t Saku biasanya disebut sebagai kantong kecil rata yang dijahitkan pada busana dan digunakan untuk menyimpang. Saku terdiri dari: \n 1. Saku tempel (set on pocket/ out pocket) yaitu saku yang kantongnya menempel diatas permukaan kain atau busana dan saku dalam. \n 2. Saku dalam (set in pocket) yaitu saku yang kantongnya berada didalam busana dan hanya lubang sakunya saja yang terlihat dipermukaan.",
         "detail": [
             {
                 "name": "Saku Dalam 1 (First Set-In Pocket)",
@@ -255,8 +250,8 @@
         "id": 9,
         "title": "Belahan (Opening)",
         "urlImage": "materi/belahan",
-        "image": "belahan1.jpeg",
-        "definitions": "Belahan adalah pengikat dua bagian busana menjadi satu. Untuk mengikat busana diantaranya menggunkan kancing hias (buttons), kancing tekan (snaps), kancing kait (hook), resliting (zipper), dan sengkelit (lacing).",
+        "image": "belahan.jpeg",
+        "definitions": "\t Belahan adalah pengikat dua bagian busana menjadi satu. Untuk mengikat busana diantaranya menggunkan kancing hias (buttons), kancing tekan (snaps), kancing kait (hook), resliting (zipper), dan sengkelit (lacing).",
         "detail": [
             {
                 "name": "Belahan 1 (First Opening)",

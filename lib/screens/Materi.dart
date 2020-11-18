@@ -25,7 +25,7 @@ class Materi extends StatelessWidget {
             child: Column(
               children: [
                 SubMateri(
-                  title: "Pengertian Bagian-Bagian Busana",
+                  title: "Bagian-Bagian Busana",
                   onTap: () => Navigator.pushNamed(context, definition),
                 ),
                 SubMateri(

@@ -27,7 +27,7 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
         appBar: AppBar(
           iconTheme: IconThemeData(color: myColor.textColorWhite),
           title: MyCustomText(
-              text: "Pengertian",
+              text: "Bagian-Bagian Busana",
               fontSize: 16.0,
               fontFamily: "Montserrat",
               color: myColor.textColorWhite,
@@ -52,7 +52,7 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
               ),
               MyCustomText(
                 text:
-                    "Bagian bagian busana ialah bentuk bentuk tertentu yang melengkapi dan menjadi ciri khas dari busana. Bagian-bagian busana terdiri dari garis leher (neckline), kerah (collar), lengan (sleeve), blus (blouse), rok (skirt), celana (pant), manset (cuff), saku (pocket), dan belahan (opening).",
+                    "Bagian bagian busana ialah bentuk bentuk tertentu yang melengkapi dan menjadi ciri khas dari busana.",
                 fontFamily: "Roboto",
                 color: myColor.secondaryColor,
                 fontSize: 14.0,
