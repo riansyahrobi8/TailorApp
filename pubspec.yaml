@@ -64,6 +64,10 @@ flutter:
     - assets/images/materi/submateri/
     - assets/images/materi/siluet/
     - assets/images/profile/
+    - assets/images/soal/
+    - assets/images/soal/soal8/
+    - assets/images/soal/soal15/
+    - assets/images/soal/soal16/
     - assets/data/datamateri.json
     - assets/data/datasiluets.json
     - assets/data/datasoal.json

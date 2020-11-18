@@ -3,7 +3,6 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:tailorapp/routing/const_routing.dart';
 import 'package:tailorapp/screens/evaluasi/hasilUjian.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
 import 'package:tailorapp/widgets/MyCustomText.dart';
@@ -165,8 +164,8 @@ class _QuizPageState extends State<QuizPage> {
                   ),
                   actions: [
                     FlatButton(
-                        onPressed: () =>
-                            Navigator.popAndPushNamed(context, evaluasi),
+                        onPressed: () => Navigator.popUntil(
+                            context, (route) => route.isFirst),
                         child: MyCustomText(
                           text: "Ya",
                           fontFamily: "Montserrat",
@@ -183,16 +182,45 @@ class _QuizPageState extends State<QuizPage> {
             Expanded(
                 flex: 3,
                 child: Container(
-                  alignment: Alignment.bottomLeft,
-                  padding: const EdgeInsets.all(16.0),
-                  child: MyCustomText(
-                    text: myData[1][i.toString()],
-                    fontFamily: "Montserrat",
-                    fontSize: 16.0,
-                    color: myColor.secondaryColor,
-                    fontWeight: FontWeight.w400,
-                  ),
-                )),
+                    alignment: Alignment.bottomLeft,
+                    padding: const EdgeInsets.all(16.0),
+                    child: myData[0][i.toString()] == 'A'
+                        ? MyCustomText(
+                            text: myData[1][i.toString()],
+                            fontFamily: "Montserrat",
+                            fontSize: 16.0,
+                            color: myColor.secondaryColor,
+                            fontWeight: FontWeight.w400,
+                          )
+                        : myData[0][i.toString()] == 'B'
+                            ? Row(
+                                children: [
+                                  Expanded(
+                                    child: MyCustomText(
+                                      text: myData[1][i.toString()],
+                                      fontFamily: "Montserrat",
+                                      fontSize: 16.0,
+                                      color: myColor.secondaryColor,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    width: 8.0,
+                                  ),
+                                  Image.asset(
+                                    myData[4][i.toString()],
+                                    width: 96.0,
+                                    height: 160.0,
+                                  )
+                                ],
+                              )
+                            : MyCustomText(
+                                text: myData[1][i.toString()],
+                                fontFamily: "Montserrat",
+                                fontSize: 16.0,
+                                color: myColor.secondaryColor,
+                                fontWeight: FontWeight.w400,
+                              ))),
             Expanded(
                 flex: 6,
                 child: Container(
@@ -230,18 +258,30 @@ class _QuizPageState extends State<QuizPage> {
     return Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
         child: MaterialButton(
-          color: btncolor[k],
-          minWidth: 250.0,
-          height: 44.0,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(22.0)),
-          onPressed: () => checkAnswer(k),
-          child: MyCustomText(
-              text: myData[2][i.toString()][k],
-              fontFamily: "Montserrat",
-              fontSize: 14.0,
-              fontWeight: FontWeight.w700,
-              color: myColor.primaryColor),
-        ));
+            color: btncolor[k],
+            minWidth: 250.0,
+            height: 44.0,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(22.0)),
+            onPressed: () => checkAnswer(k),
+            child: myData[0][i.toString()] == 'A'
+                ? MyCustomText(
+                    text: myData[2][i.toString()][k],
+                    fontFamily: "Montserrat",
+                    fontSize: 14.0,
+                    fontWeight: FontWeight.w700,
+                    color: myColor.primaryColor)
+                : myData[0][i.toString()] == 'B'
+                    ? MyCustomText(
+                        text: myData[2][i.toString()][k],
+                        fontFamily: "Montserrat",
+                        fontSize: 14.0,
+                        fontWeight: FontWeight.w700,
+                        color: myColor.primaryColor)
+                    : Image.asset(
+                        myData[2][i.toString()][k],
+                        width: 72.0,
+                        height: 72.0,
+                      )));
   }
 }
