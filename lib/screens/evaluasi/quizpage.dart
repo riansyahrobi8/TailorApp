@@ -227,11 +227,11 @@ class _QuizPageState extends State<QuizPage> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      choiceAnswer('A'),
-                      choiceAnswer('B'),
-                      choiceAnswer('C'),
-                      choiceAnswer('D'),
-                      choiceAnswer('E')
+                      choiceAnswer('A', 'A.'),
+                      choiceAnswer('B', 'B.'),
+                      choiceAnswer('C', 'C.'),
+                      choiceAnswer('D', 'D.'),
+                      choiceAnswer('E', 'E.')
                     ],
                   ),
                 )),
@@ -254,7 +254,7 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 
-  Widget choiceAnswer(String k) {
+  Widget choiceAnswer(String k, String key) {
     return Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
         child: MaterialButton(
@@ -264,24 +264,39 @@ class _QuizPageState extends State<QuizPage> {
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(22.0)),
             onPressed: () => checkAnswer(k),
-            child: myData[0][i.toString()] == 'A'
-                ? MyCustomText(
-                    text: myData[2][i.toString()][k],
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                MyCustomText(
+                    text: key,
                     fontFamily: "Montserrat",
                     fontSize: 14.0,
                     fontWeight: FontWeight.w700,
-                    color: myColor.primaryColor)
-                : myData[0][i.toString()] == 'B'
-                    ? MyCustomText(
-                        text: myData[2][i.toString()][k],
-                        fontFamily: "Montserrat",
-                        fontSize: 14.0,
-                        fontWeight: FontWeight.w700,
-                        color: myColor.primaryColor)
-                    : Image.asset(
-                        myData[2][i.toString()][k],
-                        width: 72.0,
-                        height: 72.0,
-                      )));
+                    color: myColor.primaryColor),
+                SizedBox(
+                  width: 8.0,
+                ),
+                Container(
+                    child: myData[0][i.toString()] == 'A'
+                        ? MyCustomText(
+                            text: myData[2][i.toString()][k],
+                            fontFamily: "Montserrat",
+                            fontSize: 14.0,
+                            fontWeight: FontWeight.w700,
+                            color: myColor.primaryColor)
+                        : myData[0][i.toString()] == 'B'
+                            ? MyCustomText(
+                                text: myData[2][i.toString()][k],
+                                fontFamily: "Montserrat",
+                                fontSize: 14.0,
+                                fontWeight: FontWeight.w700,
+                                color: myColor.primaryColor)
+                            : Image.asset(
+                                myData[2][i.toString()][k],
+                                width: 72.0,
+                                height: 72.0,
+                              ))
+              ],
+            )));
   }
 }
