@@ -9,7 +9,7 @@ class MyCardCustom extends StatelessWidget {
   final String urlImage;
   final String title;
   final String definitions;
-  final List details;
+  final List variations;
 
   MyCardCustom({
     Key key,
@@ -18,7 +18,7 @@ class MyCardCustom extends StatelessWidget {
     this.title,
     this.urlImage,
     this.definitions,
-    this.details,
+    this.variations,
   }) : super(key: key);
 
   @override
@@ -69,7 +69,7 @@ class MyCardCustom extends StatelessWidget {
                       urlImage: urlImage,
                       title: title,
                       definitions: definitions,
-                      details: details,
+                      variations: variations,
                     );
                   })),
                   color: myColor.primaryColor,

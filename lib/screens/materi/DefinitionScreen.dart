@@ -94,7 +94,7 @@ class _DefinitionScreenState extends State<DefinitionScreen> {
                             urlImage: data[index]['urlImage'],
                             image: data[index]['image'],
                             definitions: data[index]['definitions'],
-                            details: data[index]['detail'],
+                            variations: data[index]['variations'],
                           );
                         });
                   }

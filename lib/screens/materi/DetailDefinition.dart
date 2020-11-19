@@ -9,7 +9,7 @@ class DetailDefinition extends StatelessWidget {
   final String urlImage;
   final String title;
   final String definitions;
-  final List details;
+  final List variations;
 
   const DetailDefinition({
     Key key,
@@ -18,7 +18,7 @@ class DetailDefinition extends StatelessWidget {
     this.urlImage,
     this.title,
     this.definitions,
-    this.details,
+    this.variations,
   }) : super(key: key);
 
   @override
@@ -67,7 +67,7 @@ class DetailDefinition extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: MyCustomText(
-                text: "Variasi " + title,
+                text: "Bentuk & Variasi " + title,
                 fontFamily: "Montserrat",
                 color: myColor.secondaryColor,
                 fontWeight: FontWeight.w800,
@@ -85,13 +85,13 @@ class DetailDefinition extends StatelessWidget {
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
                       childAspectRatio: size.width / (size.height / 1.25)),
-                  itemCount: details.length,
+                  itemCount: variations.length,
                   itemBuilder: (context, index) {
                     return MyCardCustomDetail(
-                      title: details[index]['name'],
+                      title: variations[index]['name'],
                       urlImage: urlImage,
-                      image: details[index]['images'],
-                      tag: details[index]['tag'],
+                      image: variations[index]['images'],
+                      tag: variations[index]['tag'],
                     );
                   }),
             ),

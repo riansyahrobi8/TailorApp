@@ -4,8 +4,13 @@
         "title": "Garis Leher (Neckline)",
         "urlImage": "materi/garisleher",
         "image": "garisleher.jpeg",
-        "definitions": "\t Garis leher merupakan bentuk pakaian yang terletak paling atas disekitar leher atau biasa disebut sebagai tanda garis leher. \n \t Bentuk  garis  leher  banyak  variasinya,  neckline namun bentuk dasar garis leher dikelompokkan menjadi 3 yaitu: \n 1. Garis leher bulat (round neckline). \n 2. Garis leher persegi (square neckline). \n 3. Garis leher V ( V).",
-        "detail": [
+        "definitions": "\t Garis leher merupakan bentuk pakaian yang terletak paling atas disekitar leher atau biasa disebut sebagai tanda garis leher. \n \n \t Bentuk  garis  leher  banyak  variasinya,  neckline namun bentuk dasar garis leher dikelompokkan menjadi 3 yaitu: \n 1. Garis leher bulat (round neckline). \n 2. Garis leher persegi (square neckline). \n 3. Garis leher V ( V).",
+        "variations": [
+            {
+                "name": "Bentuk Dasar Garis Leher",
+                "tag": "bentukdasargarisleher",
+                "images": "bentukdasargarisleher.jpeg"
+            },
             {
                 "name": "Garis Leher Bulat (Round Neckline)",
                 "tag": "glbulat",
@@ -28,35 +33,40 @@
         "title": "Kerah (Collar)",
         "urlImage": "materi/kerah",
         "image": "kerah.jpeg",
-        "definitions": "\t Kerah adalah tambahan potongan kain yang digunakan untuk menyelesaikan garis leher. \n \t Bentuk dasar kerah terdiri dari: \n 1. Kerah rebah (flat collar). \n 2. Kerah rol (roll collar). \n 3. Kerah tegak (stand collar).",
-        "detail": [
+        "definitions": "\t Kerah adalah tambahan potongan kain yang digunakan untuk menyelesaikan garis leher. \n \n \t Bentuk dasar kerah terdiri dari: \n 1. Kerah rebah (flat collar). \n 2. Kerah rol (roll collar). \n 3. Kerah tegak (stand collar).",
+        "variations": [
             {
-                "name": "Kerah Rebah 1 (First Flat Collar)",
+                "name": "Bentuk Dasar Kerah",
+                "tag": "bentukdasarkerah",
+                "images": "bentukdasarkerah.jpeg"
+            },
+            {
+                "name": "Variasi Kerah Rebah",
                 "tag": "kerahrebah1",
                 "images": "kerahrebah1.jpeg"
             },
             {
-                "name": "Kerah Rebah 2 (Second Flat Collar)",
+                "name": "Variasi Kerah Rebah",
                 "tag": "kerahrebah2",
                 "images": "kerahrebah2.jpeg"
             },
             {
-                "name": "Kerah Roll 1 (First Roll Collar)",
+                "name": "Variasi Kerah Roll",
                 "tag": "kerahrol1",
                 "images": "kerahrol1.jpeg"
             },
             {
-                "name": "Kerah Roll 2 (Second Roll Collar)",
+                "name": "Variasi Kerah Roll",
                 "tag": "kerahrol2",
                 "images": "kerahrol2.jpeg"
             },
             {
-                "name": "Kerah Roll 3 (Third Roll Collar)",
+                "name": "Variasi Kerah Roll",
                 "tag": "kerahrol3",
                 "images": "kerahrol3.jpeg"
             },
             {
-                "name": "Kerah Tegak (Stand Collar)",
+                "name": "Variasi Kerah Tegak",
                 "tag": "kerahtegak",
                 "images": "kerahtegak.jpeg"
             }
@@ -67,35 +77,40 @@
         "title": "Lengan (Sleeve)",
         "urlImage": "materi/lengan",
         "image": "lengan.jpeg",
-        "definitions": "\t Lengan adalah bagian busana yang menutupi lengan. \n \t Menurut bentuknya, lengan dapat dibedakan menjadi dua yaitu: \n 1. Lengan yang dipasangkan (set in sleeves) \n \t Lengan yang dipasangkan adalah lengan yang secara konstruksi berdiri sendiri sehingga terdapat jahitan atau sambungan pada kerung lengan. \n 2. Lengan setali. \n \t Lengan setali adalah lengan yang menjadi satu dengan badan yang tidak terdapat potongan atau sambungan pada kerung lengan. \n \t Berdasarkan panjangnya lengan terdiri dari bagian bagian sebagai berikut: \n 1. Cap Sleeve, yaitu lengan yang panjangnya sanpai puncak lengan. \n 2. Short sleeve, yaitu lengan yang panjangnya sampai pertengahan pangkal lengan. \n 3. Elbow, yaitu lengan yang panjangnya sampai siku. \n 4. Three Quarter lenght, yaitu lengan yang panjangnya tiga perempat panjang lengan. \n 5. Wrist, yaitu lengan yang panjangnya samapi mata tangan.",
-        "detail": [
+        "definitions": "\t Lengan adalah bagian busana yang menutupi lengan. \n \t Menurut bentuknya, lengan dapat dibedakan menjadi dua yaitu: \n 1. Lengan yang dipasangkan (set in sleeves) \n \t Lengan yang dipasangkan adalah lengan yang secara konstruksi berdiri sendiri sehingga terdapat jahitan atau sambungan pada kerung lengan. \n 2. Lengan setali. \n \t Lengan setali adalah lengan yang menjadi satu dengan badan yang tidak terdapat potongan atau sambungan pada kerung lengan. \n \n \t Berdasarkan panjangnya lengan terdiri dari bagian bagian sebagai berikut: \n 1. Cap Sleeve, yaitu lengan yang panjangnya sanpai puncak lengan. \n 2. Short sleeve, yaitu lengan yang panjangnya sampai pertengahan pangkal lengan. \n 3. Elbow, yaitu lengan yang panjangnya sampai siku. \n 4. Three Quarter lenght, yaitu lengan yang panjangnya tiga perempat panjang lengan. \n 5. Wrist, yaitu lengan yang panjangnya samapi mata tangan.",
+        "variations": [
             {
-                "name": "Lengan Dipasangkan 1",
+                "name": "Lengan Berdasarkan Panjang",
+                "tag": "lenganberdasarkanpanjang",
+                "images": "lenganberdasarkanpanjang.jpeg"
+            },
+            {
+                "name": "Variasi Lengan Dipasangkan",
                 "tag": "lengandipasangkan1",
                 "images": "lengandipasangkan1.jpeg"
             },
             {
-                "name": "Lengan Dipasangkan 2",
+                "name": "Variasi Lengan Dipasangkan",
                 "tag": "lengandipasangkan2",
                 "images": "lengandipasangkan2.jpeg"
             },
             {
-                "name": "Lengan Dipasangkan 3",
+                "name": "Variasi Lengan Dipasangkan",
                 "tag": "lengandipasangkan3",
                 "images": "lengandipasangkan3.jpeg"
             },
             {
-                "name": "Lengan Dipasangkan 4",
+                "name": "Variasi Lengan Dipasangkan",
                 "tag": "lengandipasangkan4",
                 "images": "lengandipasangkan4.jpeg"
             },
             {
-                "name": "Lengan Setali 1",
+                "name": "Variasi Lengan Setali",
                 "tag": "lengansetali1",
                 "images": "lengansetali1.jpeg"
             },
             {
-                "name": "Lengan Setali 2",
+                "name": "Variasi Lengan Setali",
                 "tag": "lengansetali2",
                 "images": "lengansetali2.jpeg"
             }
@@ -106,25 +121,25 @@
         "title": "Blus (Blouse)",
         "urlImage": "materi/blus",
         "image": "blus.jpeg",
-        "definitions": "Blus adalah busana yang dikenakan pada badan atas dengan membentuk badan. Membentuk badan disini bisa terjadi karena adanya kupnat atau pola yang dimasukkan. Blus biasanya dikenakan oleh wanita.",
-        "detail": [
+        "definitions": "\t Blus adalah busana yang dikenakan pada badan atas dengan membentuk badan. Membentuk badan disini bisa terjadi karena adanya kupnat atau pola yang dimasukkan. Blus biasanya dikenakan oleh wanita.",
+        "variations": [
             {
-                "name": "Blus 1 (First Blouse)",
+                "name": "Variasi Blus",
                 "tag": "blus1",
                 "images": "blus1.jpeg"
             },
             {
-                "name": "Blus 2 (Second Blouse)",
+                "name": "Variasi Blus",
                 "tag": "blus2",
                 "images": "blus2.jpeg"
             },
             {
-                "name": "Blus 3 (Third Blouse)",
+                "name": "Variasi Blus",
                 "tag": "blus3",
                 "images": "blus3.jpeg"
             },
             {
-                "name": "Blus 4 (Fourth Blouse)",
+                "name": "Variasi Blus",
                 "tag": "blus4",
                 "images": "blus4.jpeg"
             }
@@ -135,30 +150,35 @@
         "title": "Rok (Skirt)",
         "urlImage": "materi/rok",
         "image": "rok.jpeg",
-        "definitions": "\t Rok adalah bagian busana yang dikenakan pada tubuh bagian bawah, dimulai dari bagian pinggang sampai panjang kebawah sesuai yang diinginkan dengan menggunakan satu lubang. \n \t Berdasarkan desain, rok dikelompokkan atas rok suai/lurus (straight), rok kerut (gathered), rok lipit (pleated), rok lingkaran atau setengah lingkaran (flared), rok pias (seam) dan rok draperi. Selain model-model yang disebutkan di atas masih ada model rok lain yang merupakan kombinasi model-model di atas yang ditambahkan detail-detailnya. \n \t Berdasarkan panjangnya, rok dikelompokkan atas: \n 1. Micro, yaitu rok yang hanya cukup menutupi panggul. \n 2. Mini, yaitu rok yang panjangnya sampai pertengahan paha. \n 3. Knee, yaitu rok yang panjangnya sampai lutut. \n 4. Midi, yaitu rok yang panjangnya sampai pertengahan betis. \n 5. Maxi, yaitu rok yang panjangnya sampai diatas mata kaki. \n 6. Ankle, yaitu rok yang panjangnya sampai mata kaki. \n 7. Floor (longdress) yaitu rok yang panjangnya sampai menyetuh lantai.",
-        "detail": [
+        "definitions": "\t Rok adalah bagian busana yang dikenakan pada tubuh bagian bawah, dimulai dari bagian pinggang sampai panjang kebawah sesuai yang diinginkan dengan menggunakan satu lubang. \n \n \t Berdasarkan desain, rok dikelompokkan atas rok suai/lurus (straight), rok kerut (gathered), rok lipit (pleated), rok lingkaran atau setengah lingkaran (flared), rok pias (seam) dan rok draperi. Selain model-model yang disebutkan di atas masih ada model rok lain yang merupakan kombinasi model-model di atas yang ditambahkan detail-detailnya. \n \n \t Berdasarkan panjangnya, rok dikelompokkan atas: \n 1. Micro, yaitu rok yang hanya cukup menutupi panggul. \n 2. Mini, yaitu rok yang panjangnya sampai pertengahan paha. \n 3. Knee, yaitu rok yang panjangnya sampai lutut. \n 4. Midi, yaitu rok yang panjangnya sampai pertengahan betis. \n 5. Maxi, yaitu rok yang panjangnya sampai diatas mata kaki. \n 6. Ankle, yaitu rok yang panjangnya sampai mata kaki. \n 7. Floor (longdress) yaitu rok yang panjangnya sampai menyetuh lantai.",
+        "variations": [
             {
-                "name": "Rok 1 (First Skirt)",
+                "name": "Rok Berdasarkan Panjang",
+                "tag": "rokberdasarkanpanjangnya",
+                "images": "rokberdasarkanpanjangnya.jpeg"
+            },
+            {
+                "name": "Variasi Rok",
                 "tag": "rok1",
                 "images": "rok1.jpeg"
             },
             {
-                "name": "Rok 2 (Second Skirt)",
+                "name": "Variasi Rok",
                 "tag": "rok2",
                 "images": "rok2.jpeg"
             },
             {
-                "name": "Rok 3 (Third Skirt)",
+                "name": "Variasi Rok",
                 "tag": "rok3",
                 "images": "rok3.jpeg"
             },
             {
-                "name": "Rok 4 (Fourth Skirt)",
+                "name": "Variasi Rok",
                 "tag": "rok4",
                 "images": "rok4.jpeg"
             },
             {
-                "name": "Rok 5 (Fifth Skirt)",
+                "name": "Variasi Rok",
                 "tag": "rok5",
                 "images": "rok5.jpeg"
             }
@@ -169,20 +189,25 @@
         "title": "Celana (Pant)",
         "urlImage": "materi/celana",
         "image": "celana.jpeg",
-        "definitions": "\t Celana merupakan busana yang digunakan pada tubuh bagian bawah dimulai dari pinggang dengan menggunakan dua lubang (pipa). \n \t Berdasarkan panjangnya, celana terdiri dari: \n 1. Short, yaitu celana yang panjangnya cukup menutupi panggul. \n 2. Jamaica, yaitu celana yang panjangnya pertengahan paha. \n 3. Bermuda, yaitu celana yang panjangnya sampai di atas lutut. \n 4. Dedal, yaitu celana yang panjangnya sampai bawah lutut. \n 5. Capri, yaitu celana yang panjangnya sampai diatas mata kaki. \n 6. Full length, yaitu celana yang panjangnya sampai mata kaki.",
-        "detail": [
+        "definitions": "\t Celana merupakan busana yang digunakan pada tubuh bagian bawah dimulai dari pinggang dengan menggunakan dua lubang (pipa). \n \n \t Berdasarkan panjangnya, celana terdiri dari: \n 1. Short, yaitu celana yang panjangnya cukup menutupi panggul. \n 2. Jamaica, yaitu celana yang panjangnya pertengahan paha. \n 3. Bermuda, yaitu celana yang panjangnya sampai di atas lutut. \n 4. Dedal, yaitu celana yang panjangnya sampai bawah lutut. \n 5. Capri, yaitu celana yang panjangnya sampai diatas mata kaki. \n 6. Full length, yaitu celana yang panjangnya sampai mata kaki.",
+        "variations": [
             {
-                "name": "Celana 1 (First Pant)",
+                "name": "Celana Berdasarkan Panjang",
+                "tag": "celanaberdasarkanpanjang",
+                "images": "celanaberdasarkanpanjang.jpeg"
+            },
+            {
+                "name": "Variasi Celana",
                 "tag": "celana1",
                 "images": "celana1.jpeg"
             },
             {
-                "name": "Celana 2 (Second Pant)",
+                "name": "Variasi Celana",
                 "tag": "celana2",
                 "images": "celana2.jpeg"
             },
             {
-                "name": "Celana 3 (Third Pant)",
+                "name": "Variasi Celana",
                 "tag": "celana3",
                 "images": "celana3.jpeg"
             }
@@ -194,19 +219,19 @@
         "urlImage": "materi/manset",
         "image": "manset.jpeg",
         "definitions": "\t Manset merupakan penyelesaian akhir dari ujung lengan dengan menggunakan bahan atau kain.",
-        "detail": [
+        "variations": [
             {
-                "name": "Manset 1 (First Cuff)",
+                "name": "Variasi Manset",
                 "tag": "manset1",
                 "images": "manset1.jpeg"
             },
             {
-                "name": "Manset 2 (Second Cuff)",
+                "name": "Variasi Manset",
                 "tag": "manset2",
                 "images": "manset2.jpeg"
             },
             {
-                "name": "Manset 3 (Third Cuff)",
+                "name": "Variasi Manset",
                 "tag": "manset3",
                 "images": "manset3.jpeg"
             }
@@ -218,29 +243,29 @@
         "urlImage": "materi/saku",
         "image": "saku.jpeg",
         "definitions": "\t Saku biasanya disebut sebagai kantong kecil rata yang dijahitkan pada busana dan digunakan untuk menyimpang. Saku terdiri dari: \n 1. Saku tempel (set on pocket/ out pocket) yaitu saku yang kantongnya menempel diatas permukaan kain atau busana dan saku dalam. \n 2. Saku dalam (set in pocket) yaitu saku yang kantongnya berada didalam busana dan hanya lubang sakunya saja yang terlihat dipermukaan.",
-        "detail": [
+        "variations": [
             {
-                "name": "Saku Dalam 1 (First Set-In Pocket)",
+                "name": "Variasi Saku Dalam",
                 "tag": "sakudlm1",
                 "images": "sakudlm1.jpeg"
             },
             {
-                "name": "Saku Dalam 2 (Second Set-In Pocket)",
+                "name": "Variasi Saku Dalam",
                 "tag": "sakudlm2",
                 "images": "sakudlm2.jpeg"
             },
             {
-                "name": "Saku Dalam 3 (Third Set-In Pocket)",
+                "name": "Variasi Saku Dalam",
                 "tag": "sakudlm3",
                 "images": "sakudlm3.jpeg"
             },
             {
-                "name": "Saku Tempel 1 (First Set-On Pocket)",
+                "name": "Variasi Saku Tempel",
                 "tag": "sakutempel1",
                 "images": "sakutempel1.jpeg"
             },
             {
-                "name": "Saku Tempel 2 (Second Set-On Pocket)",
+                "name": "Variasi Saku Tempel",
                 "tag": "sakutempel2",
                 "images": "sakutempel2.jpeg"
             }
@@ -252,19 +277,19 @@
         "urlImage": "materi/belahan",
         "image": "belahan.jpeg",
         "definitions": "\t Belahan adalah pengikat dua bagian busana menjadi satu. Untuk mengikat busana diantaranya menggunkan kancing hias (buttons), kancing tekan (snaps), kancing kait (hook), resliting (zipper), dan sengkelit (lacing).",
-        "detail": [
+        "variations": [
             {
-                "name": "Belahan 1 (First Opening)",
+                "name": "Variasi Belahan",
                 "tag": "belahan1",
                 "images": "belahan1.jpeg"
             },
             {
-                "name": "Belahan 2 (Second Opening)",
+                "name": "Variasi Belahan",
                 "tag": "belahan2",
                 "images": "belahan2.jpeg"
             },
             {
-                "name": "Belahan 3 (Third Opening)",
+                "name": "Variasi Belahan",
                 "tag": "belahan3",
                 "images": "belahan3.jpeg"
             }

@@ -196,6 +196,7 @@ class _QuizPageState extends State<QuizPage> {
                             ? Row(
                                 children: [
                                   Expanded(
+                                    flex: 1,
                                     child: MyCustomText(
                                       text: myData[1][i.toString()],
                                       fontFamily: "Montserrat",
@@ -207,10 +208,13 @@ class _QuizPageState extends State<QuizPage> {
                                   SizedBox(
                                     width: 8.0,
                                   ),
-                                  Image.asset(
-                                    myData[4][i.toString()],
-                                    width: 96.0,
-                                    height: 160.0,
+                                  Expanded(
+                                    flex: 1,
+                                    child: Image.asset(
+                                      myData[4][i.toString()],
+                                      width: 96.0,
+                                      height: 160.0,
+                                    ),
                                   )
                                 ],
                               )
