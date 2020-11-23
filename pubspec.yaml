@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  audioplayers: ^0.17.0
   cached_network_image: ^2.3.3
   cupertino_icons: ^1.0.0
   http: ^0.12.2
@@ -71,6 +72,7 @@ flutter:
     - assets/data/datamateri.json
     - assets/data/datasiluets.json
     - assets/data/datasoal.json
+    - assets/audio/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
