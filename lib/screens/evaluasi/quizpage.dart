@@ -8,6 +8,10 @@ import 'package:tailorapp/utils/customColor.dart' as myColor;
 import 'package:tailorapp/widgets/MyCustomText.dart';
 
 class GetDataSoal extends StatelessWidget {
+  final String name;
+
+  const GetDataSoal({Key key, this.name}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -38,6 +42,7 @@ class GetDataSoal extends StatelessWidget {
         } else {
           return QuizPage(
             myData: myData,
+            name: name,
           );
         }
       },
@@ -47,15 +52,20 @@ class GetDataSoal extends StatelessWidget {
 
 class QuizPage extends StatefulWidget {
   final List myData;
+  final String name;
 
-  QuizPage({Key key, @required this.myData}) : super(key: key);
+  QuizPage({Key key, @required this.myData, this.name}) : super(key: key);
 
   @override
-  _QuizPageState createState() => _QuizPageState(myData);
+  _QuizPageState createState() => _QuizPageState(myData, name);
 }
 
 class _QuizPageState extends State<QuizPage> {
+  var name;
   var myData;
+
+  _QuizPageState(this.myData, this.name);
+
   Color colorToShow = Colors.white;
   Color right = myColor.secondaryColor;
   Color wrong = myColor.subTitleColor;
@@ -108,8 +118,13 @@ class _QuizPageState extends State<QuizPage> {
       if (i < 20) {
         i++;
       } else {
-        Navigator.pushReplacement(context,
-            MaterialPageRoute(builder: (context) => HasilUjian(result: marks)));
+        Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+                builder: (context) => HasilUjian(
+                      result: marks,
+                      name: name,
+                    )));
       }
       btncolor["A"] = Colors.white;
       btncolor["B"] = Colors.white;
@@ -136,8 +151,6 @@ class _QuizPageState extends State<QuizPage> {
       });
     });
   }
-
-  _QuizPageState(this.myData);
 
   @override
   Widget build(BuildContext context) {
@@ -209,7 +222,7 @@ class _QuizPageState extends State<QuizPage> {
                                     width: 8.0,
                                   ),
                                   Expanded(
-                                    flex: 1,
+                                    flex: 2,
                                     child: Image.asset(
                                       myData[4][i.toString()],
                                       width: 96.0,

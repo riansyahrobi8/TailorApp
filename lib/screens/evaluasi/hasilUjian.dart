@@ -5,16 +5,19 @@ import 'package:tailorapp/utils/customColor.dart' as myColor;
 
 class HasilUjian extends StatefulWidget {
   final int result;
+  final String name;
 
-  HasilUjian({Key key, @required this.result}) : super(key: key);
+  HasilUjian({Key key, @required this.result, this.name}) : super(key: key);
+
   @override
-  _HasilUjianState createState() => _HasilUjianState(result);
+  _HasilUjianState createState() => _HasilUjianState(result, name);
 }
 
 class _HasilUjianState extends State<HasilUjian> {
   int result;
+  String name;
 
-  _HasilUjianState(this.result);
+  _HasilUjianState(this.result, this.name);
 
   @override
   Widget build(BuildContext context) {
@@ -24,16 +27,26 @@ class _HasilUjianState extends State<HasilUjian> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+              child: Image.asset("assets/images/winner.png"),
+            ),
+            SizedBox(
+              height: 56.0,
+            ),
+            Padding(
               padding:
                   const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16.0),
               child: MyCustomText(
-                text: "Nilai mu adalah $result",
+                text: "Nilai $name adalah $result",
                 fontFamily: "Montserrat",
                 fontSize: 24.0,
                 fontWeight: FontWeight.w700,
                 color: myColor.primaryColor,
                 textAlign: TextAlign.center,
               ),
+            ),
+            SizedBox(
+              height: 36.0,
             ),
             ButtonTheme(
               height: 44.0,
