@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tailorapp/screens/evaluasi/quizpage.dart';
 import 'package:tailorapp/widgets/MyCustomText.dart';
 import 'package:tailorapp/utils/customColor.dart' as myColor;
-import 'package:shared_preferences/shared_preferences.dart';
 
 class Evaluasi extends StatefulWidget {
   @override

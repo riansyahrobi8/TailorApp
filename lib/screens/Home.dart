@@ -10,6 +10,7 @@ class Home extends StatelessWidget {
         backgroundColor: myColor.backgroundColor,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Padding(
               padding: const EdgeInsets.all(24.0),

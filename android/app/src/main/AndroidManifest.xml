@@ -9,7 +9,7 @@
 
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="FeshDes"
+        android:label="MoDe"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

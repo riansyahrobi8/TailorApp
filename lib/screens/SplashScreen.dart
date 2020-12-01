@@ -11,7 +11,7 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  String _name = 'Created by Tri Annisa';
+  String _name = 'MoDe';
   final splashDelay = 5;
 
   @override
@@ -50,12 +50,25 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                 )),
             CircularProgressIndicator(),
-            MyCustomText(
-                text: _name,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                fontFamily: "Montserrat",
-                color: myColor.textColorWhite),
+            Container(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  MyCustomText(
+                      text: _name,
+                      fontSize: 28,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: "Montserrat",
+                      color: myColor.textColorWhite),
+                  MyCustomText(
+                      text: "Material of Design",
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: "Montserrat",
+                      color: myColor.textColorWhite),
+                ],
+              ),
+            ),
           ],
         ),
       ),
