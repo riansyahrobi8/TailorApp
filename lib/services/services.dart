@@ -6,7 +6,7 @@ import 'package:tailorapp/models/videos_list_model.dart';
 import 'package:tailorapp/utils/keys.dart';
 
 class Services {
-  static const String CHANNEL_ID = 'UCyFezEWLR8R7uTzmGUTzzlA';
+  static const String CHANNEL_ID = 'UCsCgYNwivAfZnWuxBYkmZqg';
   static const _baseUrl = 'www.googleapis.com';
 
   static Future<ChannelInfo> fetchChannel() async {
@@ -38,7 +38,7 @@ class Services {
     Map<String, String> params = {
       'part': 'snippet',
       'playlistId': playlistId,
-      'maxResults': "8",
+      'maxResults': "9",
       'pageToken': pageToken,
       'key': Constants.API_KEY,
     };
