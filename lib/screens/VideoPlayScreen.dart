@@ -7,19 +7,23 @@ class VideoPlayScreen extends StatefulWidget {
   VideoPlayScreen({this.videoItem});
   final VideoItem videoItem;
   @override
-  _VideoPlayScreenState createState() => _VideoPlayScreenState();
+  _VideoPlayScreenState createState() =>
+      _VideoPlayScreenState(videoItem: videoItem);
 }
 
 class _VideoPlayScreenState extends State<VideoPlayScreen> {
   YoutubePlayerController _youtubePlayerController;
   bool _isPlayerReady;
 
+  final VideoItem videoItem;
+  _VideoPlayScreenState({this.videoItem});
+
   @override
   void initState() {
     super.initState();
     _isPlayerReady = false;
     _youtubePlayerController = YoutubePlayerController(
-        initialVideoId: widget.videoItem.video.resourceId.videoId,
+        initialVideoId: videoItem.video.resourceId.videoId,
         flags: YoutubePlayerFlags(mute: false, autoPlay: true))
       ..addListener(_listener);
   }

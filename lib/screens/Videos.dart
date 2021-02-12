@@ -36,7 +36,7 @@ class _VideosState extends State<Videos> {
     _channelInfo = await Services.fetchChannel();
     _item = _channelInfo.items[0];
     _playlistId = _item.contentDetails.relatedPlaylists.uploads;
-    print("Playlist $_playlistId");
+    // print("Playlist $_playlistId");
     await _fetchVideos();
     setState(() {
       _isLoading = false;
@@ -74,14 +74,14 @@ class _VideosState extends State<Videos> {
                   const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
               child: Column(
                 children: [
-                  // _buildInfoView(),
+                  _buildInfoView(),
                   Expanded(
                     child: NotificationListener<ScrollEndNotification>(
                       onNotification: (ScrollNotification scrollNotification) {
-                        // if (_videosList.videos.length >=
-                        //     int.parse(_item.statistics.videoCount)) {
-                        //   return true;
-                        // }
+                        if (_videosList.videos.length >=
+                            int.parse(_item.statistics.videoCount)) {
+                          return true;
+                        }
                         if (scrollNotification.metrics.pixels ==
                             scrollNotification.metrics.maxScrollExtent) {
                           _fetchVideos();
@@ -139,45 +139,45 @@ class _VideosState extends State<Videos> {
     );
   }
 
-  // _buildInfoView() {
-  //   return _isLoading
-  //       ? CircularProgressIndicator()
-  //       : Container(
-  //           child: Card(
-  //             child: Padding(
-  //               padding: const EdgeInsets.all(16.0),
-  //               child: Row(
-  //                 children: [
-  //                   CircleAvatar(
-  //                     backgroundImage: CachedNetworkImageProvider(
-  //                         _item.snippet.thumbnails.medium.url),
-  //                   ),
-  //                   SizedBox(
-  //                     width: 20.0,
-  //                   ),
-  //                   Expanded(
-  //                     child: MyCustomText(
-  //                       text: _item.snippet.title,
-  //                       color: myColor.primaryColor,
-  //                       fontFamily: 'Montserrat',
-  //                       fontSize: 18.0,
-  //                       fontWeight: FontWeight.w800,
-  //                     ),
-  //                   ),
-  //                   MyCustomText(
-  //                     text: _item.statistics.videoCount,
-  //                     color: myColor.primaryColor,
-  //                     fontFamily: 'Roboto',
-  //                     fontSize: 14.0,
-  //                     fontWeight: FontWeight.w800,
-  //                   ),
-  //                   SizedBox(
-  //                     width: 20.0,
-  //                   ),
-  //                 ],
-  //               ),
-  //             ),
-  //           ),
-  //         );
-  // }
+  _buildInfoView() {
+    return _isLoading
+        ? CircularProgressIndicator()
+        : Container(
+            child: Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      backgroundImage: CachedNetworkImageProvider(
+                          _item.snippet.thumbnails.medium.url),
+                    ),
+                    SizedBox(
+                      width: 20.0,
+                    ),
+                    Expanded(
+                      child: MyCustomText(
+                        text: _item.snippet.title,
+                        color: myColor.primaryColor,
+                        fontFamily: 'Montserrat',
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                    MyCustomText(
+                      text: _item.statistics.videoCount,
+                      color: myColor.primaryColor,
+                      fontFamily: 'Roboto',
+                      fontSize: 14.0,
+                      fontWeight: FontWeight.w800,
+                    ),
+                    SizedBox(
+                      width: 20.0,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          );
+  }
 }

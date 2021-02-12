@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 
 import 'package:http/http.dart';
@@ -6,8 +7,8 @@ import 'package:tailorapp/models/videos_list_model.dart';
 import 'package:tailorapp/utils/keys.dart';
 
 class Services {
-  static const String CHANNEL_ID = 'UCsCgYNwivAfZnWuxBYkmZqg';
-  static const _baseUrl = 'www.googleapis.com';
+  static const String CHANNEL_ID = "UCsCgYNwivAfZnWuxBYkmZqg";
+  static const _baseUrl = "www.googleapis.com";
 
   static Future<ChannelInfo> fetchChannel() async {
     Map<String, String> params = {
@@ -27,7 +28,7 @@ class Services {
     );
 
     Response response = await get(uri, headers: headers);
-    print(response.body);
+    log("Response channel: " + response.body);
 
     ChannelInfo channelInfo = channelInfoFromJson(response.body);
     return channelInfo;
@@ -38,7 +39,7 @@ class Services {
     Map<String, String> params = {
       'part': 'snippet',
       'playlistId': playlistId,
-      'maxResults': "9",
+      'maxResults': '9',
       'pageToken': pageToken,
       'key': Constants.API_KEY,
     };
@@ -54,7 +55,7 @@ class Services {
     );
 
     Response response = await get(uri, headers: headers);
-    print(response.body);
+    log("Response videolist: " + response.body);
 
     VideosList videosList = videosListFromJson(response.body);
     return videosList;

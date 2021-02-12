@@ -147,18 +147,18 @@ class Thumbnails {
     this.maxres,
   });
 
-  Default thumbnailsDefault;
-  Default medium;
-  Default high;
-  Default standard;
-  Default maxres;
+  ThumbnailDefault thumbnailsDefault;
+  ThumbnailDefault medium;
+  ThumbnailDefault high;
+  ThumbnailDefault standard;
+  ThumbnailDefault maxres;
 
   factory Thumbnails.fromJson(Map<String, dynamic> json) => Thumbnails(
-        thumbnailsDefault: Default.fromJson(json["default"]),
-        medium: Default.fromJson(json["medium"]),
-        high: Default.fromJson(json["high"]),
-        standard: Default.fromJson(json["standard"]),
-        maxres: Default.fromJson(json["maxres"]),
+        thumbnailsDefault: ThumbnailDefault.fromJson(json["default"]),
+        medium: ThumbnailDefault.fromJson(json["medium"]),
+        high: ThumbnailDefault.fromJson(json["high"]),
+        standard: json["standard"] != null ? ThumbnailDefault.fromJson(json["standard"]) : ThumbnailDefault(),
+        maxres: json["maxres"] != null ? ThumbnailDefault.fromJson(json["maxres"]) : ThumbnailDefault(),
       );
 
   Map<String, dynamic> toJson() => {
@@ -170,8 +170,8 @@ class Thumbnails {
       };
 }
 
-class Default {
-  Default({
+class ThumbnailDefault {
+  ThumbnailDefault({
     this.url,
     this.width,
     this.height,
@@ -181,7 +181,7 @@ class Default {
   int width;
   int height;
 
-  factory Default.fromJson(Map<String, dynamic> json) => Default(
+  factory ThumbnailDefault.fromJson(Map<String, dynamic> json) => ThumbnailDefault(
         url: json["url"],
         width: json["width"],
         height: json["height"],
