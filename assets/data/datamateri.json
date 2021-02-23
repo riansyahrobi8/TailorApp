@@ -9,22 +9,22 @@
             {
                 "name": "Bentuk Dasar Garis Leher",
                 "tag": "bentukdasargarisleher",
-                "images": "bentukdasargarisleher.jpeg"
+                "images": "bentukdasargarisleher.jpg"
             },
             {
                 "name": "Garis Leher Bulat (Round Neckline)",
                 "tag": "glbulat",
-                "images": "glbulat.jpeg"
+                "images": "glbulat.jpg"
             },
             {
                 "name": "Garis Leher Persegi (Square Neckline)",
                 "tag": "glpersegi",
-                "images": "glpersegi.jpeg"
+                "images": "glpersegi.jpg"
             },
             {
                 "name": "Garis Leher V (V Neckline)",
                 "tag": "glv",
-                "images": "glv.jpeg"
+                "images": "glv.jpg"
             }
         ]
     },
@@ -38,37 +38,37 @@
             {
                 "name": "Bentuk Dasar Kerah",
                 "tag": "bentukdasarkerah",
-                "images": "bentukdasarkerah.jpeg"
+                "images": "bentukdasarkerah.jpg"
             },
             {
                 "name": "Variasi Kerah Rebah",
                 "tag": "kerahrebah1",
-                "images": "kerahrebah1.jpeg"
+                "images": "kerahrebah1.jpg"
             },
             {
                 "name": "Variasi Kerah Rebah",
                 "tag": "kerahrebah2",
-                "images": "kerahrebah2.jpeg"
+                "images": "kerahrebah2.jpg"
             },
             {
                 "name": "Variasi Kerah Roll",
                 "tag": "kerahrol1",
-                "images": "kerahrol1.jpeg"
+                "images": "kerahrol1.jpg"
             },
             {
                 "name": "Variasi Kerah Roll",
                 "tag": "kerahrol2",
-                "images": "kerahrol2.jpeg"
+                "images": "kerahrol2.jpg"
             },
             {
                 "name": "Variasi Kerah Roll",
                 "tag": "kerahrol3",
-                "images": "kerahrol3.jpeg"
+                "images": "kerahrol3.jpg"
             },
             {
                 "name": "Variasi Kerah Tegak",
                 "tag": "kerahtegak",
-                "images": "kerahtegak.jpeg"
+                "images": "kerahtegak.jpg"
             }
         ]
     },

@@ -4,7 +4,7 @@
         "title": "Siluet A",
         "tag": "siluetA",
         "urlImage": "materi/siluet",
-        "image": "siluetA.jpeg",
+        "image": "siluetA.jpg",
         "desc": "Siluet A merupakan busana yang didesain pada bagian atas kecil dan bagian bawah besar, baik panjang maupun pendek dengan lengan ataupun tanpa lengan."
     },
     {
@@ -12,7 +12,7 @@
         "title": "Siluet I",
         "tag": "siluetI",
         "urlImage": "materi/siluet",
-        "image": "siluetI.jpeg",
+        "image": "siluetI.jpg",
         "desc": "Siluet I merupakan busana yang didesain mempunyai model bagian atas, bagian tengah dan bagian bawah cenderung sama besar atau sama lebar. Namun, ada juga yang pada bagian pinggang sedikit ramping."
     },
     {
@@ -20,7 +20,7 @@
         "title": "Siluet L",
         "tag": "siluetL",
         "urlImage": "materi/siluet",
-        "image": "siluetL.jpeg",
+        "image": "siluetL.jpg",
         "desc": "Siluet L merupakan busana yang didesain menyerupai siluet I namun diberi tambahan dibagian belakang dengan bentuk panjang atau drapery."
     },
     {
@@ -28,7 +28,7 @@
         "title": "Siluet S",
         "tag": "siluetS",
         "urlImage": "materi/siluet",
-        "image": "siluetS.jpeg",
+        "image": "siluetS.jpg",
         "desc": "Siluet S merupakan busana yang didesain pada bagian atas besar, kecil pada bagian pinggang dan besar pada bagian bawah (rok)."
     },
     {
@@ -36,7 +36,7 @@
         "title": "Siluet T",
         "tag": "siluetT",
         "urlImage": "materi/siluet",
-        "image": "siluetT.jpeg",
+        "image": "siluetT.jpg",
         "desc": "Siluet T merupakan siluet busana yang didesain kecil pada garis leher, besar pada lengan dan kecil pada bagan bawah (rok)."
     },
     {
@@ -44,7 +44,7 @@
         "title": "Siluet Y",
         "tag": "siluetY",
         "urlImage": "materi/siluet",
-        "image": "siluetY.jpeg",
+        "image": "siluetY.jpg",
         "desc": "Siluet Y merupakan busana yang didesain pada bagian atas lebar dengan garis leher V dan bagian bawah (rok) mengecil atau menyempit."
     }
 ]

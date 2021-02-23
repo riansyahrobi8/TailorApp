@@ -11,7 +11,8 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  String _name = 'MoDe';
+  String _name =
+      'Pendidikan Teknik Busana, Fakultas Teknik, Universitas Negeri Yogyakarta';
   final splashDelay = 5;
 
   @override
@@ -56,13 +57,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 children: [
                   MyCustomText(
                       text: _name,
-                      fontSize: 28,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: "Montserrat",
-                      color: myColor.textColorWhite),
-                  MyCustomText(
-                      text: "Material of Design",
                       fontSize: 14,
+                      textAlign: TextAlign.center,
                       fontWeight: FontWeight.bold,
                       fontFamily: "Montserrat",
                       color: myColor.textColorWhite),
