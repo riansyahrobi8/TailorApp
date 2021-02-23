@@ -39,7 +39,7 @@ class Services {
     Map<String, String> params = {
       'part': 'snippet',
       'playlistId': playlistId,
-      'maxResults': '9',
+      'maxResults': '6',
       'pageToken': pageToken,
       'key': Constants.API_KEY,
     };
