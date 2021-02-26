@@ -12,7 +12,7 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   String _name =
-      'Pendidikan Teknik Busana\nFakultas Teknik\nUniversitas Negeri Yogyakarta';
+      'Pendidikan Tata Busana\nFakultas Teknik\nUniversitas Negeri Yogyakarta';
   final splashDelay = 5;
 
   @override
